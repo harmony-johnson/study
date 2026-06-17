@@ -1,0 +1,407 @@
+[
+  {
+    "question": "What are the resources, data, or materials that are put into a system to be processed? [cite: 58]",
+    "options": [
+      "Inputs",
+      "Outputs",
+      "Processes",
+      "Feedback"
+    ]
+  },
+  {
+    "question": "Which system component represents the activities or operations that transform inputs into outputs? [cite: 61]",
+    "options": [
+      "Processes",
+      "Control",
+      "Boundaries",
+      "Environment"
+    ]
+  },
+  {
+    "question": "What system component encompasses everything outside the system that can influence its operation and performance? [cite: 75, 76]",
+    "options": [
+      "Environment",
+      "Boundaries",
+      "Feedback",
+      "Networks"
+    ]
+  },
+  {
+    "question": "Which of the following defines the limits of a system and differentiates it from its surroundings? [cite: 77, 78]",
+    "options": [
+      "Boundaries",
+      "Control",
+      "Closed Systems",
+      "Hardware"
+    ]
+  },
+  {
+    "question": "What type of system is characterized by having all inputs and outputs contained within it, meaning it does not interact with its environment? [cite: 83, 84]",
+    "options": [
+      "Closed Systems",
+      "Open Systems",
+      "Information Systems",
+      "Networked Systems"
+    ]
+  },
+  {
+    "question": "In the context of Information Systems, what are communication systems that connect hardware components and allow data sharing called? [cite: 107, 108]",
+    "options": [
+      "Networks",
+      "Processes",
+      "Databases",
+      "Data Stores"
+    ]
+  },
+  {
+    "question": "During which SDLC phase are project initiation, feasibility analysis, and resource allocation performed? [cite: 118]",
+    "options": [
+      "Planning",
+      "Analysis",
+      "Implementation",
+      "Deployment"
+    ]
+  },
+  {
+    "question": "What are the expected deliverables at the end of the SDLC Design phase? [cite: 129]",
+    "options": [
+      "Design documents, data models, UI/UX prototypes",
+      "Source code, database schema, developed modules",
+      "Test plans, test cases, defect reports",
+      "Project charter, feasibility study report, project plan"
+    ]
+  },
+  {
+    "question": "Which SDLC model is most suitable for projects with well-defined requirements and low uncertainty? [cite: 157]",
+    "options": [
+      "Waterfall Model",
+      "Iterative Model",
+      "Spiral Model",
+      "Agile Model"
+    ]
+  },
+  {
+    "question": "Which SDLC methodology emphasizes flexibility, collaboration, and utilizes iterative cycles called sprints? [cite: 231, 232]",
+    "options": [
+      "Agile Model",
+      "Waterfall Model",
+      "V-Model",
+      "Spiral Model"
+    ]
+  },
+  {
+    "question": "Assessing the technical, financial, and operational viability of proposed systems falls under which responsibility of a System Analyst? [cite: 247]",
+    "options": [
+      "Feasibility Analysis",
+      "System Integration",
+      "Quality Assurance and Testing",
+      "Project Management"
+    ]
+  },
+  {
+    "question": "What is the primary goal of requirements gathering in the SDLC? [cite: 278]",
+    "options": [
+      "To ensure the final system meets users' requirements and provides value to the organization",
+      "To write the source code for the new software implementation",
+      "To deploy the new system to the production environment safely",
+      "To perform integration and unit testing on individual modules"
+    ]
+  },
+  {
+    "question": "Which requirement elicitation technique involves a facilitated group setting to generate ideas, discuss requirements, and build consensus collaboratively? [cite: 339]",
+    "options": [
+      "Workshops/Brainstorming Sessions",
+      "Questionnaires",
+      "Document Analysis",
+      "Observation and Shadowing"
+    ]
+  },
+  {
+    "question": "What is a notable demerit of using questionnaires for requirement gathering? [cite: 336]",
+    "options": [
+      "Lack of opportunity for clarification or follow-up questions",
+      "High cost compared to interviews in terms of resources",
+      "Inability to gather data from a large and diverse group",
+      "It requires bringing all stakeholders into a single room"
+    ]
+  },
+  {
+    "question": "What process is used to establish links between requirements and other SDLC artifacts, such as design documents and test cases, to ensure comprehensive coverage? [cite: 356]",
+    "options": [
+      "Requirements Traceability",
+      "Requirements Prioritization",
+      "Requirements Validation",
+      "Requirements Elicitation"
+    ]
+  },
+  {
+    "question": "In Data Flow Diagrams (DFDs), what standardized symbol is used to represent processes? [cite: 382]",
+    "options": [
+      "Circles",
+      "Rectangles",
+      "Arrows",
+      "Squares"
+    ]
+  },
+  {
+    "question": "A key limitation of Data Flow Diagrams (DFDs) is that they represent a static view of the system. What do they often fail to capture? [cite: 390]",
+    "options": [
+      "Dynamic aspects such as real-time interactions or system behavior over time",
+      "The source and destination of data flows",
+      "External entities interacting with the boundaries of the system",
+      "Data stores where raw information is physically held"
+    ]
+  },
+  {
+    "question": "In an Entity-Relationship Diagram (ERD), what represents the properties or characteristics of entities? [cite: 399]",
+    "options": [
+      "Attributes",
+      "Relationships",
+      "Primary Keys",
+      "Cardinality"
+    ]
+  },
+  {
+    "question": "What ERD concept specifies the maximum and minimum number of occurrences of one entity that may be related to another entity? [cite: 401]",
+    "options": [
+      "Cardinality",
+      "Atomicity",
+      "Modularity",
+      "Traceability"
+    ]
+  },
+  {
+    "question": "In a Use Case Diagram, what represents users, external systems, or other entities that interact with the system? [cite: 417]",
+    "options": [
+      "Actors",
+      "Use Cases",
+      "System Boundaries",
+      "Data Stores"
+    ]
+  },
+  {
+    "question": "What type of relationship in a Use Case Diagram indicates dependencies where one use case expands or relies on the functionality of another? [cite: 421]",
+    "options": [
+      "Include and Extend Relationships",
+      "Forks and Joins",
+      "Primary and Foreign Keys",
+      "Start and End Nodes"
+    ]
+  },
+  {
+    "question": "In Activity Diagrams, what component shows the flow of control between activities, indicating the sequence in which actions are executed? [cite: 436]",
+    "options": [
+      "Transitions",
+      "Decisions",
+      "Forks",
+      "Actors"
+    ]
+  },
+  {
+    "question": "In Activity Diagrams, what represents points where the flow of control may diverge based on certain conditions or criteria? [cite: 437]",
+    "options": [
+      "Decisions (Branches)",
+      "Transitions",
+      "Start Nodes",
+      "Joins"
+    ]
+  },
+  {
+    "question": "Which database normalization form refines the Third Normal Form (3NF) by eliminating all non-trivial functional dependencies? [cite: 461]",
+    "options": [
+      "Boyce-Codd Normal Form (BCNF)",
+      "First Normal Form (1NF)",
+      "Second Normal Form (2NF)",
+      "Fourth Normal Form (4NF)"
+    ]
+  },
+  {
+    "question": "The SQL commands GRANT and REVOKE belong to which Basic Component of SQL? [cite: 493, 494]",
+    "options": [
+      "Data Control Language (DCL)",
+      "Data Definition Language (DDL)",
+      "Data Manipulation Language (DML)",
+      "Transaction Control Language (TCL)"
+    ]
+  },
+  {
+    "question": "Which SQL component is used to manage database transactions, incorporating commands like COMMIT, ROLLBACK, and SAVEPOINT? [cite: 494, 495]",
+    "options": [
+      "Transaction Control Language (TCL)",
+      "Data Manipulation Language (DML)",
+      "Data Control Language (DCL)",
+      "Data Definition Language (DDL)"
+    ]
+  },
+  {
+    "question": "Which interface design principle dictates that design elements should suggest their function (e.g., buttons should look clickable)? [cite: 539, 540]",
+    "options": [
+      "Affordance",
+      "Simplicity",
+      "Consistency",
+      "Visibility"
+    ]
+  },
+  {
+    "question": "Which interface design principle ensures that the layout and design elements are uniform, so users do not have to relearn how to use different parts of an application? [cite: 525, 526]",
+    "options": [
+      "Consistency",
+      "Feedback",
+      "Affordance",
+      "Accessibility"
+    ]
+  },
+  {
+    "question": "Which usability principle focuses on making the system easy to use again after a period of not using it, without having to relearn the interface? [cite: 563]",
+    "options": [
+      "Memorability",
+      "Efficiency",
+      "Learnability",
+      "Satisfaction"
+    ]
+  },
+  {
+    "question": "What is a major disadvantage of using the Waterfall methodology for software development? [cite: 591, 592]",
+    "options": [
+      "Late discovery of issues since testing happens only after implementation is completed",
+      "It requires daily stand-up meetings which exhaust developer resources",
+      "It easily accommodates spontaneous scope changes, leading to project creep",
+      "There is no structured plan, leading to chaotic implementation"
+    ]
+  },
+  {
+    "question": "According to the key principles of the Agile methodology, what is prioritized over comprehensive documentation? [cite: 596, 597]",
+    "options": [
+      "Working software",
+      "Contract negotiation",
+      "Rigid planning",
+      "Processes and tools"
+    ]
+  },
+  {
+    "question": "What coding technique breaks down software code into distinct components, each responsible for a specific task? [cite: 621]",
+    "options": [
+      "Modularization",
+      "Code Refactoring",
+      "Test-Driven Development",
+      "Concurrency"
+    ]
+  },
+  {
+    "question": "Implementing mechanisms like try-except blocks in Python to prevent application crashes is an example of which coding technique? [cite: 625, 626]",
+    "options": [
+      "Error Handling",
+      "Code Reusability",
+      "Optimization",
+      "Security Measures"
+    ]
+  },
+  {
+    "question": "What type of testing involves re-testing software after changes have been made to ensure that existing functionalities are not affected? [cite: 652]",
+    "options": [
+      "Regression Testing",
+      "Unit Testing",
+      "Acceptance Testing",
+      "Performance Testing"
+    ]
+  },
+  {
+    "question": "Which integration testing approach starts from the highest-level modules, using stubs or mock objects to simulate lower-level modules? [cite: 689]",
+    "options": [
+      "Top-Down Integration",
+      "Bottom-Up Integration",
+      "Big Bang Integration",
+      "Incremental Integration"
+    ]
+  },
+  {
+    "question": "What refers to the set of activities designed to ensure that development processes are adequate, preventing defects and ensuring a system will meet its objectives? [cite: 655, 656]",
+    "options": [
+      "Quality Assurance (QA)",
+      "System Maintenance",
+      "Unit Testing",
+      "System Deployment"
+    ]
+  },
+  {
+    "question": "Which deployment strategy involves maintaining two identical production environments to ensure zero downtime and enable quick rollbacks? [cite: 745, 748]",
+    "options": [
+      "Blue-Green Deployment",
+      "Canary Deployment",
+      "Rolling Deployment",
+      "Recreate Deployment"
+    ]
+  },
+  {
+    "question": "Which deployment strategy releases the new version of an application to a small subset of users initially to monitor its performance before a full rollout? [cite: 751, 752]",
+    "options": [
+      "Canary Deployment",
+      "Shadow Deployment",
+      "A/B Testing Deployment",
+      "Recreate Deployment"
+    ]
+  },
+  {
+    "question": "What deployment strategy runs two different versions of an application simultaneously to different user groups to compare user acceptance and conversion rates? [cite: 757, 758]",
+    "options": [
+      "A/B Testing Deployment",
+      "Shadow Deployment",
+      "Blue-Green Deployment",
+      "Feature Toggles"
+    ]
+  },
+  {
+    "question": "What type of user training consists of traditional classroom-style instruction led by a teacher, either in person or virtually? [cite: 776]",
+    "options": [
+      "Instructor-Led Training (ILT)",
+      "E-Learning",
+      "Webinars",
+      "Workshops and Hands-On Training"
+    ]
+  },
+  {
+    "question": "Fixing errors and bugs that are identified after the software is already in use by end-users is classified as what type of system maintenance? [cite: 817]",
+    "options": [
+      "Corrective Maintenance",
+      "Preventive Maintenance",
+      "Adaptive Maintenance",
+      "Perfective Maintenance"
+    ]
+  },
+  {
+    "question": "Modifying software to keep it compatible with a new operating system version or a new third-party service is an example of what type of maintenance? [cite: 821, 822]",
+    "options": [
+      "Adaptive Maintenance",
+      "Perfective Maintenance",
+      "Preventive Maintenance",
+      "Corrective Maintenance"
+    ]
+  },
+  {
+    "question": "Subversion (SVN) is provided as an example of which type of Version Control System? [cite: 866]",
+    "options": [
+      "Centralized Version Control Systems (CVCS)",
+      "Distributed Version Control Systems (DVCS)",
+      "Local Version Control Systems",
+      "Peer-to-Peer Version Control Systems"
+    ]
+  },
+  {
+    "question": "In Version Control terminology, what is a request to merge changes from one branch into another, which is often accompanied by a code review process? [cite: 876]",
+    "options": [
+      "Pull Request (PR)",
+      "Commit",
+      "Branch",
+      "Conflict Resolution"
+    ]
+  },
+  {
+    "question": "In a Version Control System, what provides a parallel version of the codebase, allowing for independent development of features or experiments? [cite: 872]",
+    "options": [
+      "Branch",
+      "Commit",
+      "Repository",
+      "Merge"
+    ]
+  }
+]

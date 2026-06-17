@@ -1,0 +1,992 @@
+[
+  {
+    "question": "What does the term Big Data refer to?",
+    "options": [
+      "Datasets too large or complex for traditional processing",
+      "Only structured data",
+      "Any database larger than 1 TB",
+      "Data stored in spreadsheets"
+    ]
+  },
+  {
+    "question": "Which of the following is NOT one of the traditional 5 Vs of Big Data?",
+    "options": [
+      "Visibility",
+      "Volume",
+      "Velocity",
+      "Variety"
+    ]
+  },
+  {
+    "question": "Which V of Big Data refers to the amount of data generated?",
+    "options": [
+      "Volume",
+      "Velocity",
+      "Veracity",
+      "Value"
+    ]
+  },
+  {
+    "question": "Which V describes the speed at which data is generated?",
+    "options": [
+      "Velocity",
+      "Volume",
+      "Value",
+      "Variety"
+    ]
+  },
+  {
+    "question": "Which V refers to different forms of data?",
+    "options": [
+      "Variety",
+      "Velocity",
+      "Veracity",
+      "Volume"
+    ]
+  },
+  {
+    "question": "Which V deals with the trustworthiness of data?",
+    "options": [
+      "Veracity",
+      "Value",
+      "Volume",
+      "Variety"
+    ]
+  },
+  {
+    "question": "Which V represents the usefulness of data?",
+    "options": [
+      "Value",
+      "Velocity",
+      "Volume",
+      "Veracity"
+    ]
+  },
+  {
+    "question": "Which of the following is an example of unstructured data?",
+    "options": [
+      "Video files",
+      "Excel tables",
+      "SQL records",
+      "CSV files"
+    ]
+  },
+  {
+    "question": "Which of the following is semi-structured data?",
+    "options": [
+      "JSON",
+      "JPEG image",
+      "Relational table",
+      "Printed book"
+    ]
+  },
+  {
+    "question": "What is the main purpose of Big Data analytics?",
+    "options": [
+      "To extract useful insights from large datasets",
+      "To delete duplicate files",
+      "To replace databases",
+      "To compress files"
+    ]
+  },
+  {
+    "question": "A distributed system is best described as:",
+    "options": [
+      "A collection of computers working together as one system",
+      "A single powerful supercomputer",
+      "A local database server",
+      "A cloud storage account"
+    ]
+  },
+  {
+    "question": "Which is an advantage of distributed systems?",
+    "options": [
+      "Scalability",
+      "High single-point failure",
+      "No networking required",
+      "Limited storage"
+    ]
+  },
+  {
+    "question": "Which is a challenge of distributed systems?",
+    "options": [
+      "Complex management",
+      "Unlimited processing speed",
+      "No hardware cost",
+      "No security concerns"
+    ]
+  },
+  {
+    "question": "Hadoop is primarily a:",
+    "options": [
+      "Framework for distributed storage and processing",
+      "Programming language",
+      "Relational database",
+      "Web browser"
+    ]
+  },
+  {
+    "question": "Which of these is NOT a core Hadoop component?",
+    "options": [
+      "Apache Kafka",
+      "HDFS",
+      "MapReduce",
+      "YARN"
+    ]
+  },
+  {
+    "question": "Which Hadoop component provides shared libraries?",
+    "options": [
+      "Hadoop Common",
+      "MapReduce",
+      "HDFS",
+      "Spark SQL"
+    ]
+  },
+  {
+    "question": "One major advantage of Hadoop is:",
+    "options": [
+      "Fault tolerance",
+      "It only works on expensive hardware",
+      "It cannot scale",
+      "It only handles structured data"
+    ]
+  },
+  {
+    "question": "Hadoop achieves fault tolerance mainly through:",
+    "options": [
+      "Data replication",
+      "Manual backups",
+      "External hard drives",
+      "Single-node processing"
+    ]
+  },
+  {
+    "question": "What does HDFS stand for?",
+    "options": [
+      "Hadoop Distributed File System",
+      "High Data File Storage",
+      "Hybrid Distributed File Service",
+      "Hadoop Data Framework Solution"
+    ]
+  },
+  {
+    "question": "The NameNode in HDFS is responsible for:",
+    "options": [
+      "Managing file system metadata",
+      "Storing all user data blocks",
+      "Running Spark jobs",
+      "Managing SQL queries"
+    ]
+  },
+  {
+    "question": "The DataNode in HDFS primarily:",
+    "options": [
+      "Stores actual data blocks",
+      "Schedules jobs",
+      "Acts as a database server",
+      "Controls ApplicationMasters"
+    ]
+  },
+  {
+    "question": "Which HDFS component stores metadata?",
+    "options": [
+      "NameNode",
+      "DataNode",
+      "RegionServer",
+      "NodeManager"
+    ]
+  },
+  {
+    "question": "A block in HDFS is:",
+    "options": [
+      "The basic unit of file storage",
+      "A network cable",
+      "A security protocol",
+      "A type of database"
+    ]
+  },
+  {
+    "question": "Why are files split into blocks in HDFS?",
+    "options": [
+      "To support distributed storage and parallel processing",
+      "To reduce RAM usage only",
+      "To improve graphics rendering",
+      "To simplify passwords"
+    ]
+  },
+  {
+    "question": "Which is a feature of HDFS?",
+    "options": [
+      "High throughput",
+      "Low fault tolerance",
+      "Single machine storage",
+      "No replication"
+    ]
+  },
+  {
+    "question": "Which is a goal of HDFS?",
+    "options": [
+      "Reliable storage of large datasets",
+      "Replacing all databases",
+      "Running only small files",
+      "Reducing internet speed"
+    ]
+  },
+  {
+    "question": "HDFS is best suited for:",
+    "options": [
+      "Large-scale data storage",
+      "Real-time banking transactions",
+      "Small random file updates",
+      "Gaming graphics"
+    ]
+  },
+  {
+    "question": "Which situation is NOT ideal for HDFS?",
+    "options": [
+      "Applications requiring low-latency random access",
+      "Large archive storage",
+      "Log file analysis",
+      "Scientific data storage"
+    ]
+  },
+  {
+    "question": "Data locality means:",
+    "options": [
+      "Processing data near where it is stored",
+      "Keeping data in one city",
+      "Using local hard drives only",
+      "Storing data offline"
+    ]
+  },
+  {
+    "question": "MapReduce is a:",
+    "options": [
+      "Distributed programming model for processing large datasets",
+      "NoSQL database",
+      "Visualization tool",
+      "Cloud provider"
+    ]
+  },
+  {
+    "question": "Which phase of MapReduce creates key-value pairs?",
+    "options": [
+      "Map phase",
+      "Reduce phase",
+      "Shuffle phase",
+      "Storage phase"
+    ]
+  },
+  {
+    "question": "The Shuffle and Sort phase is used to:",
+    "options": [
+      "Group similar keys together",
+      "Delete duplicate records",
+      "Compress files",
+      "Encrypt data"
+    ]
+  },
+  {
+    "question": "The Reduce phase mainly:",
+    "options": [
+      "Aggregates and processes grouped data",
+      "Splits files into blocks",
+      "Stores metadata",
+      "Allocates memory"
+    ]
+  },
+  {
+    "question": "Which is an application of MapReduce?",
+    "options": [
+      "Log analysis",
+      "Word processing",
+      "Photo editing",
+      "Spreadsheet formatting"
+    ]
+  },
+  {
+    "question": "The JobTracker is responsible for:",
+    "options": [
+      "Assigning and monitoring MapReduce jobs",
+      "Storing HDFS blocks",
+      "Managing MongoDB collections",
+      "Controlling Kafka streams"
+    ]
+  },
+  {
+    "question": "The TaskTracker is responsible for:",
+    "options": [
+      "Executing assigned tasks",
+      "Managing metadata",
+      "Allocating cloud storage",
+      "Creating Spark DataFrames"
+    ]
+  },
+  {
+    "question": "Which comes immediately after the Map phase?",
+    "options": [
+      "Shuffle and Sort",
+      "Reduce",
+      "Output",
+      "Storage"
+    ]
+  },
+  {
+    "question": "What does YARN stand for?",
+    "options": [
+      "Yet Another Resource Negotiator",
+      "Your Application Resource Network",
+      "Yield and Run Nodes",
+      "Yet Another Runtime Node"
+    ]
+  },
+  {
+    "question": "YARN is mainly responsible for:",
+    "options": [
+      "Resource management and job scheduling",
+      "Video streaming",
+      "Database indexing",
+      "Network encryption"
+    ]
+  },
+  {
+    "question": "Which YARN component allocates cluster resources?",
+    "options": [
+      "ResourceManager",
+      "NodeManager",
+      "TaskTracker",
+      "DataNode"
+    ]
+  },
+  {
+    "question": "Which YARN component runs on each worker node?",
+    "options": [
+      "NodeManager",
+      "NameNode",
+      "ApplicationMaster",
+      "JobTracker"
+    ]
+  },
+  {
+    "question": "The ApplicationMaster is responsible for:",
+    "options": [
+      "Managing the execution of a specific application",
+      "Storing HDFS metadata",
+      "Hosting databases",
+      "Running SQL queries"
+    ]
+  },
+  {
+    "question": "In YARN, a container is:",
+    "options": [
+      "A bundle of allocated resources",
+      "A physical server rack",
+      "A file block",
+      "A NoSQL document"
+    ]
+  },
+  {
+    "question": "A benefit of YARN is:",
+    "options": [
+      "Support for multiple processing frameworks",
+      "It removes the need for HDFS",
+      "It only supports MapReduce",
+      "It eliminates networking"
+    ]
+  },
+  {
+    "question": "HBase is a:",
+    "options": [
+      "Distributed column-oriented NoSQL database",
+      "Relational database",
+      "Visualization library",
+      "Programming language"
+    ]
+  },
+  {
+    "question": "HBase is built on top of:",
+    "options": [
+      "HDFS",
+      "MySQL",
+      "Oracle",
+      "AWS S3"
+    ]
+  },
+  {
+    "question": "HBase is best suited for:",
+    "options": [
+      "Real-time random read/write access",
+      "Sequential tape backups",
+      "Spreadsheet editing",
+      "Image rendering"
+    ]
+  },
+  {
+    "question": "Data in HBase is organized into:",
+    "options": [
+      "Tables, rows, and column families",
+      "Worksheets and slides",
+      "Classes and objects",
+      "Folders and files"
+    ]
+  },
+  {
+    "question": "Which of the following best differentiates HBase from HDFS?",
+    "options": [
+      "HBase provides database functionality while HDFS provides file storage",
+      "HBase stores only images",
+      "HDFS is a programming language",
+      "They are identical"
+    ]
+  },
+  {
+    "question": "HBase belongs to which category of databases?",
+    "options": [
+      "NoSQL",
+      "Relational",
+      "Hierarchical",
+      "Network"
+    ]
+  },
+  {
+    "question": "MongoDB is a:",
+    "options": [
+      "Document-oriented NoSQL database",
+      "Relational database",
+      "Spreadsheet application",
+      "Distributed file system"
+    ]
+  },
+  {
+    "question": "MongoDB stores data in:",
+    "options": [
+      "BSON documents",
+      "Rows and columns only",
+      "Plain text files",
+      "Binary trees"
+    ]
+  },
+  {
+    "question": "CRUD stands for:",
+    "options": [
+      "Create, Read, Update, Delete",
+      "Copy, Run, Upload, Download",
+      "Create, Remove, Undo, Deploy",
+      "Connect, Read, Use, Disconnect"
+    ]
+  },
+  {
+    "question": "Which is an advantage of NoSQL databases?",
+    "options": [
+      "Flexible schema",
+      "Rigid table structure",
+      "No scalability",
+      "Only supports numeric data"
+    ]
+  },
+  {
+    "question": "Which type of NoSQL database is MongoDB?",
+    "options": [
+      "Document store",
+      "Graph database",
+      "Key-value store",
+      "Column-family store"
+    ]
+  },
+  {
+    "question": "Apache Spark is known for:",
+    "options": [
+      "In-memory data processing",
+      "Using only disk storage",
+      "Being a relational database",
+      "Replacing the internet"
+    ]
+  },
+  {
+    "question": "Compared to Hadoop MapReduce, Spark is generally:",
+    "options": [
+      "Faster",
+      "Always slower",
+      "Unable to scale",
+      "Limited to one computer"
+    ]
+  },
+  {
+    "question": "Which Spark component is used for machine learning?",
+    "options": [
+      "MLlib",
+      "GraphX",
+      "HDFS",
+      "YARN"
+    ]
+  },
+  {
+    "question": "Spark SQL is designed for:",
+    "options": [
+      "Structured data processing",
+      "Photo editing",
+      "Network routing",
+      "Operating systems"
+    ]
+  },
+  {
+    "question": "Which Spark abstraction is a distributed collection of objects?",
+    "options": [
+      "RDD",
+      "CSV",
+      "BSON",
+      "DNS"
+    ]
+  },
+  {
+    "question": "Spark DataFrames are mainly used for:",
+    "options": [
+      "Working with structured data",
+      "Network monitoring",
+      "HDFS replication",
+      "Cloud billing"
+    ]
+  },
+  {
+    "question": "Batch processing refers to:",
+    "options": [
+      "Processing stored data at intervals",
+      "Processing every event instantly",
+      "Deleting old data",
+      "Encrypting files"
+    ]
+  },
+  {
+    "question": "Real-time processing means:",
+    "options": [
+      "Processing data immediately as it arrives",
+      "Waiting until the end of the day",
+      "Storing data offline",
+      "Compressing data"
+    ]
+  },
+  {
+    "question": "Apache Kafka is primarily used for:",
+    "options": [
+      "Event streaming and data ingestion",
+      "Relational storage",
+      "Image editing",
+      "Machine learning"
+    ]
+  },
+  {
+    "question": "Apache Flume is mainly used for:",
+    "options": [
+      "Collecting and moving log data",
+      "Creating SQL tables",
+      "Running MapReduce jobs",
+      "Managing containers"
+    ]
+  },
+  {
+    "question": "Big Data analytics focuses on:",
+    "options": [
+      "Discovering patterns and insights",
+      "Replacing databases",
+      "Building hardware",
+      "Compressing images"
+    ]
+  },
+  {
+    "question": "Descriptive analytics answers the question:",
+    "options": [
+      "What happened?",
+      "What should we do?",
+      "What will happen?",
+      "Why did it happen?"
+    ]
+  },
+  {
+    "question": "Predictive analytics answers:",
+    "options": [
+      "What is likely to happen?",
+      "What happened?",
+      "Who created the data?",
+      "Where is the server?"
+    ]
+  },
+  {
+    "question": "Prescriptive analytics helps determine:",
+    "options": [
+      "What should be done",
+      "What happened",
+      "Who owns the dataset",
+      "How many servers exist"
+    ]
+  },
+  {
+    "question": "The primary goal of data visualization is:",
+    "options": [
+      "To communicate patterns and insights clearly",
+      "To reduce storage space",
+      "To replace databases",
+      "To encrypt files"
+    ]
+  },
+  {
+    "question": "Which of these is a visualization tool?",
+    "options": [
+      "Matplotlib",
+      "MongoDB",
+      "Kafka",
+      "HDFS"
+    ]
+  },
+  {
+    "question": "Tableau is mainly used for:",
+    "options": [
+      "Data visualization",
+      "Distributed storage",
+      "Machine learning only",
+      "NoSQL storage"
+    ]
+  },
+  {
+    "question": "AWS S3 is primarily a:",
+    "options": [
+      "Cloud storage service",
+      "Machine learning library",
+      "Programming language",
+      "Database query engine"
+    ]
+  },
+  {
+    "question": "AWS Athena is used to:",
+    "options": [
+      "Query data using SQL",
+      "Run mobile apps",
+      "Create operating systems",
+      "Manage DNS"
+    ]
+  },
+  {
+    "question": "Which is NOT a major cloud provider?",
+    "options": [
+      "Apache HBase",
+      "AWS",
+      "Google Cloud",
+      "Microsoft Azure"
+    ]
+  },
+  {
+    "question": "One advantage of using cloud services for Big Data is:",
+    "options": [
+      "Elastic scalability",
+      "Fixed hardware limits",
+      "No internet access",
+      "No security features"
+    ]
+  },
+  {
+    "question": "A common Big Data security concern is:",
+    "options": [
+      "Data breaches",
+      "Improved scalability",
+      "Faster processing",
+      "Lower storage"
+    ]
+  },
+  {
+    "question": "Which technique helps protect sensitive data?",
+    "options": [
+      "Encryption",
+      "Replication",
+      "Compression",
+      "Sorting"
+    ]
+  },
+  {
+    "question": "Authentication is used to:",
+    "options": [
+      "Verify the identity of a user",
+      "Increase storage size",
+      "Delete records",
+      "Create backups"
+    ]
+  },
+  {
+    "question": "Which technology is better suited for real-time processing?",
+    "options": [
+      "Apache Spark",
+      "Traditional MapReduce",
+      "Magnetic tape",
+      "Manual records"
+    ]
+  },
+  {
+    "question": "Which database model uses rows and columns?",
+    "options": [
+      "Relational database",
+      "Document database",
+      "Column-family NoSQL",
+      "Graph database"
+    ]
+  },
+  {
+    "question": "Which database model is known for flexible schemas?",
+    "options": [
+      "NoSQL",
+      "Relational",
+      "Hierarchical only",
+      "Flat file"
+    ]
+  },
+  {
+    "question": "Which Hadoop component is responsible for storage?",
+    "options": [
+      "HDFS",
+      "YARN",
+      "Spark SQL",
+      "Kafka"
+    ]
+  },
+  {
+    "question": "Which Hadoop component is responsible for processing?",
+    "options": [
+      "MapReduce",
+      "HDFS",
+      "MongoDB",
+      "Flume"
+    ]
+  },
+  {
+    "question": "Which combination correctly matches Hadoop components?",
+    "options": [
+      "HDFS for storage and MapReduce for processing",
+      "YARN for storage and HBase for processing",
+      "MongoDB for storage and HDFS for analytics",
+      "Kafka for storage and Spark SQL for networking"
+    ]
+  },
+  {
+    "question": "In the 5 Vs of Big Data, Volume refers to:",
+    "options": [
+      "amount of data generated",
+      "distributed computing",
+      "machine learning",
+      "database normalization"
+    ]
+  },
+  {
+    "question": "In the 5 Vs of Big Data, Velocity refers to:",
+    "options": [
+      "speed of data generation",
+      "distributed computing",
+      "machine learning",
+      "database normalization"
+    ]
+  },
+  {
+    "question": "In the 5 Vs of Big Data, Variety refers to:",
+    "options": [
+      "different forms of data",
+      "distributed computing",
+      "machine learning",
+      "database normalization"
+    ]
+  },
+  {
+    "question": "In the 5 Vs of Big Data, Veracity refers to:",
+    "options": [
+      "quality and reliability of data",
+      "distributed computing",
+      "machine learning",
+      "database normalization"
+    ]
+  },
+  {
+    "question": "In the 5 Vs of Big Data, Value refers to:",
+    "options": [
+      "useful insights obtained from data",
+      "distributed computing",
+      "machine learning",
+      "database normalization"
+    ]
+  },
+  {
+    "question": "Which Hadoop feature allows recovery from hardware failure?",
+    "options": [
+      "Fault tolerance",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which HDFS node stores the actual file contents?",
+    "options": [
+      "DataNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which component manages HDFS metadata?",
+    "options": [
+      "NameNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which framework can run alongside MapReduce under YARN?",
+    "options": [
+      "Apache Spark",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which NoSQL database was introduced in the course outline?",
+    "options": [
+      "MongoDB",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which Hadoop feature allows recovery from hardware failure?",
+    "options": [
+      "Fault tolerance",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which HDFS node stores the actual file contents?",
+    "options": [
+      "DataNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which component manages HDFS metadata?",
+    "options": [
+      "NameNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which framework can run alongside MapReduce under YARN?",
+    "options": [
+      "Apache Spark",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which NoSQL database was introduced in the course outline?",
+    "options": [
+      "MongoDB",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which Hadoop feature allows recovery from hardware failure?",
+    "options": [
+      "Fault tolerance",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which HDFS node stores the actual file contents?",
+    "options": [
+      "DataNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which component manages HDFS metadata?",
+    "options": [
+      "NameNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which framework can run alongside MapReduce under YARN?",
+    "options": [
+      "Apache Spark",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which NoSQL database was introduced in the course outline?",
+    "options": [
+      "MongoDB",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which Hadoop feature allows recovery from hardware failure?",
+    "options": [
+      "Fault tolerance",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which HDFS node stores the actual file contents?",
+    "options": [
+      "DataNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which component manages HDFS metadata?",
+    "options": [
+      "NameNode",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which framework can run alongside MapReduce under YARN?",
+    "options": [
+      "Apache Spark",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  },
+  {
+    "question": "Which NoSQL database was introduced in the course outline?",
+    "options": [
+      "MongoDB",
+      "Apache Office",
+      "FTP Server",
+      "HTML"
+    ]
+  }
+]

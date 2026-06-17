@@ -1,0 +1,255 @@
+
+[
+  {
+    "question": "What is an organized collection of components that work together to achieve a specific goal or set of goals?",
+    "options": [
+      "A system",
+      "A network",
+      "A database",
+      "A process"
+    ]
+  },
+  {
+    "question": "Which system component consists of information about the output that is used to make adjustments to inputs or processes?",
+    "options": [
+      "Feedback",
+      "Control",
+      "Environment",
+      "Boundary"
+    ]
+  },
+  {
+    "question": "Which type of system interacts with its environment by receiving inputs and producing outputs?",
+    "options": [
+      "Open system",
+      "Closed system",
+      "Isolated system",
+      "Static system"
+    ]
+  },
+  {
+    "question": "In an information system, what component encompasses the programs and applications that control hardware and process data?",
+    "options": [
+      "Software",
+      "Hardware",
+      "Networks",
+      "Processes"
+    ]
+  },
+  {
+    "question": "What is the primary deliverable of the Planning phase of the System Development Life Cycle (SDLC)?",
+    "options": [
+      "Feasibility study report and project plan",
+      "System requirements specification (SRS)",
+      "UI/UX prototypes and data models",
+      "Source code and database schema"
+    ]
+  },
+  {
+    "question": "During which phase of the SDLC is the System Requirements Specification (SRS) document created?",
+    "options": [
+      "Analysis phase",
+      "Planning phase",
+      "Design phase",
+      "Implementation phase"
+    ]
+  },
+  {
+    "question": "What SDLC model is characterized by a linear, sequential approach where each phase must be finished before the next begins?",
+    "options": [
+      "Waterfall Model",
+      "Spiral Model",
+      "Agile Model",
+      "Iterative Model"
+    ]
+  },
+  {
+    "question": "Which SDLC model focuses heavily on verification and validation by pairing development stages with matching testing phases?",
+    "options": [
+      "V-Model",
+      "Waterfall Model",
+      "DevOps Model",
+      "Agile Model"
+    ]
+  },
+  {
+    "question": "What is a major risk or weakness associated with using the Iterative Model?",
+    "options": [
+      "Scope creep",
+      "Total inability to change requirements",
+      "High initial setup cost for operations automation",
+      "Lack of client feedback loop structural paths"
+    ]
+  },
+  {
+    "question": "Which SDLC model explicitly combines iterative development cycles with structured risk assessment at each turn?",
+    "options": [
+      "Spiral Model",
+      "Waterfall Model",
+      "Agile Model",
+      "DevOps Model"
+    ]
+  },
+  {
+    "question": "What structural component does the Agile model use to execute its iterative design cycles?",
+    "options": [
+      "Sprints",
+      "Forks",
+      "Joins",
+      "Toggles"
+    ]
+  },
+  {
+    "question": "Which methodology integrates software development and operations teams to automate the delivery pipeline and enhance continuous deployment?",
+    "options": [
+      "DevOps Model",
+      "Spiral Model",
+      "V-Model",
+      "Waterfall Model"
+    ]
+  },
+  {
+    "question": "What is the core role of a System Analyst in an enterprise setting?",
+    "options": [
+      "Acting as a bridge between business problems and technology solutions",
+      "Writing machine-level instructions for hardware interfaces",
+      "Managing database indexing protocols exclusively",
+      "Configuring local area network switches and routers"
+    ]
+  },
+  {
+    "question": "Which requirements elicitation technique involves standardized formats, can be sent out to large populations simultaneously, and preserves anonymity?",
+    "options": [
+      "Questionnaires",
+      "Interviews",
+      "Observation and Shadowing",
+      "Focus Groups"
+    ]
+  },
+  {
+    "question": "What is a primary disadvantage of using interviews for requirement gathering?",
+    "options": [
+      "It is highly time-consuming for large groups",
+      "It provides very little qualitative depth",
+      "It prevents the analyst from building rapport",
+      "It limits structured quantitative analysis"
+    ]
+  },
+  {
+    "question": "What characteristic must formal requirements documentation possess to establish structural links with design documents and test cases?",
+    "options": [
+      "Traceability",
+      "Atomicity",
+      "Partial dependency elimination",
+      "Dynamic representation"
+    ]
+  },
+  {
+    "question": "Entity-Relationship Diagrams (ERDs) provide which type of view of a database structure?",
+    "options": [
+      "Static representation",
+      "Dynamic representation",
+      "Behavioral sequence",
+      "Control flow transition"
+    ]
+  },
+  {
+    "question": "In an Activity Diagram, what notation element depicts parallel or concurrent execution paths where multiple activities happen at once?",
+    "options": [
+      "Forks and Joins",
+      "Decisions and Branches",
+      "Start and End Nodes",
+      "Transitions"
+    ]
+  },
+  {
+    "question": "What property is achieved in First Normal Form (1NF) by ensuring that every cell contains a single value?",
+    "options": [
+      "Atomicity",
+      "Traceability",
+      "Modularization",
+      "Partial dependency elimination"
+    ]
+  },
+  {
+    "question": "How is a database table advanced from 1NF to Second Normal Form (2NF)?",
+    "options": [
+      "By removing partial dependencies",
+      "By eliminating transitive dependencies",
+      "By creating database views and indexes",
+      "By adding user authorization controls"
+    ]
+  },
+  {
+    "question": "What structural dependency must be eliminated for a database configuration to satisfy Third Normal Form (3NF)?",
+    "options": [
+      "Transitive dependencies",
+      "Partial dependencies",
+      "Atomic values",
+      "Primary keys"
+    ]
+  },
+  {
+    "question": "Which component sub-language of SQL includes commands like CREATE, ALTER, and DROP to alter structural database objects?",
+    "options": [
+      "Data Definition Language (DDL)",
+      "Data Manipulation Language (DML)",
+      "Data Control Language (DCL)",
+      "Transaction Control Language (TCL)"
+    ]
+  },
+  {
+    "question": "Commands like SELECT, INSERT, UPDATE, and DELETE belong to which structural classification of SQL?",
+    "options": [
+      "Data Manipulation Language (DML)",
+      "Data Definition Language (DDL)",
+      "Data Control Language (DCL)",
+      "System Administration Language (SAL)"
+    ]
+  },
+  {
+    "question": "Which usability principle dictates that new users should be able to learn interface navigation and accomplish basic tasks quickly?",
+    "options": [
+      "Learnability Principle",
+      "Efficiency Principle",
+      "Error Handling Principle",
+      "Traceability Principle"
+    ]
+  },
+  {
+    "question": "What development technique involves breaking down a system's source code into smaller, distinct components that each handle a single task?",
+    "options": [
+      "Modularization",
+      "Refactoring",
+      "Optimization",
+      "Normalization"
+    ]
+  },
+  {
+    "question": "What software engineering practice requires developers to write functional test modules before coding the actual application behavior?",
+    "options": [
+      "Test-Driven Development (TDD)",
+      "Continuous Integration (CI)",
+      "Code Refactoring",
+      "Feature Toggles"
+    ]
+  },
+  {
+    "question": "What tool or strategy allows a system deployment team to hide a complete new feature in the codebase, enabling gradual rollout to selected beta testers?",
+    "options": [
+      "Feature Toggles",
+      "Unit Testing",
+      "Data Migration",
+      "Instructor-Led Training"
+    ]
+  },
+  {
+    "question": "Which deployment mechanism automatically tests and builds the codebase with every single commit to ensure modifications do not break application stability?",
+    "options": [
+      "Continuous Integration (CI)",
+      "Tagging and Versioning",
+      "Usability Testing",
+      "Document Analysis"
+    ]
+  }
+]
