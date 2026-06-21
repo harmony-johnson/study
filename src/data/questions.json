@@ -1,992 +1,902 @@
 [
   {
-    "question": "What does the term Big Data refer to?",
+    "question": "What is the primary purpose of the SPSS software?",
     "options": [
-      "Datasets too large or complex for traditional processing",
-      "Only structured data",
-      "Any database larger than 1 TB",
-      "Data stored in spreadsheets"
+      "Statistical analysis and data management",
+      "Word processing and document formatting",
+      "Graphic design and video editing",
+      "Web hosting and database routing"
     ]
   },
   {
-    "question": "Which of the following is NOT one of the traditional 5 Vs of Big Data?",
+    "question": "In SPSS, which view is primarily used to configure the properties of the data, such as name, type, and labels?",
     "options": [
-      "Visibility",
-      "Volume",
-      "Velocity",
-      "Variety"
+      "Variable View",
+      "Data View",
+      "Output View",
+      "Syntax View"
     ]
   },
   {
-    "question": "Which V of Big Data refers to the amount of data generated?",
+    "question": "Which of the following is NOT a valid property that can be defined for a variable in SPSS Variable View?",
     "options": [
-      "Volume",
-      "Velocity",
-      "Veracity",
-      "Value"
+      "Syntax",
+      "Width",
+      "Decimals",
+      "Measure"
     ]
   },
   {
-    "question": "Which V describes the speed at which data is generated?",
+    "question": "What is the default data type assigned to a new variable in SPSS?",
     "options": [
-      "Velocity",
-      "Volume",
-      "Value",
-      "Variety"
+      "Numeric",
+      "String",
+      "Date",
+      "Comma"
     ]
   },
   {
-    "question": "Which V refers to different forms of data?",
+    "question": "Which property in Variable View is used to assign text descriptions to specific numeric codes (e.g., 1 = Male, 2 = Female)?",
     "options": [
-      "Variety",
-      "Velocity",
-      "Veracity",
-      "Volume"
+      "Values",
+      "Label",
+      "Name",
+      "Missing"
     ]
   },
   {
-    "question": "Which V deals with the trustworthiness of data?",
+    "question": "Which of the following describes a 'case' in SPSS terminology?",
     "options": [
-      "Veracity",
-      "Value",
-      "Volume",
-      "Variety"
+      "A single row representing one unit of observation or participant",
+      "A single column representing a measured attribute",
+      "A statistical test comparing two means",
+      "A missing data point in the dataset"
     ]
   },
   {
-    "question": "Which V represents the usefulness of data?",
+    "question": "In the context of SPSS data transformation, what does the 'Compute Variable' function allow you to do?",
     "options": [
-      "Value",
-      "Velocity",
-      "Volume",
-      "Veracity"
+      "Create a new variable by performing mathematical operations on existing variables",
+      "Delete variables that contain too many missing values",
+      "Automatically generate a final report of descriptive statistics",
+      "Change a numeric variable into a string variable permanently"
     ]
   },
   {
-    "question": "Which of the following is an example of unstructured data?",
+    "question": "Which data transformation technique is used to convert continuous variables into distinct categories or intervals?",
     "options": [
-      "Video files",
-      "Excel tables",
-      "SQL records",
-      "CSV files"
+      "Visual Binning",
+      "Ranking Cases",
+      "Computing Variables",
+      "Sorting Cases"
     ]
   },
   {
-    "question": "Which of the following is semi-structured data?",
+    "question": "If you want to change the values of an existing variable (e.g., changing ages into age groups) without creating a new column, which option would you use?",
     "options": [
-      "JSON",
-      "JPEG image",
-      "Relational table",
-      "Printed book"
+      "Recode into Same Variables",
+      "Recode into Different Variables",
+      "Automatic Recode",
+      "Compute Variable"
     ]
   },
   {
-    "question": "What is the main purpose of Big Data analytics?",
+    "question": "Which measure of central tendency represents the arithmetic average of a dataset?",
     "options": [
-      "To extract useful insights from large datasets",
-      "To delete duplicate files",
-      "To replace databases",
-      "To compress files"
+      "Mean",
+      "Median",
+      "Mode",
+      "Standard Deviation"
     ]
   },
   {
-    "question": "A distributed system is best described as:",
+    "question": "Which of the following is a measure of dispersion?",
     "options": [
-      "A collection of computers working together as one system",
-      "A single powerful supercomputer",
-      "A local database server",
-      "A cloud storage account"
+      "Variance",
+      "Median",
+      "Mean",
+      "Mode"
     ]
   },
   {
-    "question": "Which is an advantage of distributed systems?",
+    "question": "In descriptive statistics, what does the 'Range' represent?",
     "options": [
-      "Scalability",
-      "High single-point failure",
-      "No networking required",
-      "Limited storage"
+      "The difference between the maximum and minimum values",
+      "The average distance of all data points from the mean",
+      "The most frequently occurring value in the dataset",
+      "The middle value when the data is sorted in ascending order"
     ]
   },
   {
-    "question": "Which is a challenge of distributed systems?",
+    "question": "Which SPSS analysis provides a count of how often each value occurs in a dataset, along with percentages?",
     "options": [
-      "Complex management",
-      "Unlimited processing speed",
-      "No hardware cost",
-      "No security concerns"
+      "Frequencies",
+      "Descriptives",
+      "Crosstabs",
+      "Correlate"
     ]
   },
   {
-    "question": "Hadoop is primarily a:",
+    "question": "When comparing the means of exactly two independent groups, which inferential statistical test is most appropriate?",
     "options": [
-      "Framework for distributed storage and processing",
-      "Programming language",
-      "Relational database",
-      "Web browser"
+      "Independent-Samples T-test",
+      "Paired-Samples T-test",
+      "One-Way ANOVA",
+      "Chi-Square Test"
     ]
   },
   {
-    "question": "Which of these is NOT a core Hadoop component?",
+    "question": "Which test should be used to compare the means of two related groups, such as pre-test and post-test scores for the same individuals?",
     "options": [
-      "Apache Kafka",
-      "HDFS",
-      "MapReduce",
-      "YARN"
+      "Paired-Samples T-test",
+      "Independent-Samples T-test",
+      "One-Way ANOVA",
+      "Pearson Correlation"
     ]
   },
   {
-    "question": "Which Hadoop component provides shared libraries?",
+    "question": "If you want to compare the means of three or more independent groups, which test is required?",
     "options": [
-      "Hadoop Common",
-      "MapReduce",
-      "HDFS",
-      "Spark SQL"
+      "One-Way ANOVA",
+      "Independent-Samples T-test",
+      "Chi-Square Test",
+      "Spearman's Rank Correlation"
     ]
   },
   {
-    "question": "One major advantage of Hadoop is:",
+    "question": "What is the purpose of conducting a Post-Hoc test after an ANOVA?",
     "options": [
-      "Fault tolerance",
-      "It only works on expensive hardware",
-      "It cannot scale",
-      "It only handles structured data"
+      "To determine exactly which groups have significantly different means from each other",
+      "To calculate the total variance of the dataset",
+      "To check if the data is normally distributed before running the ANOVA",
+      "To convert categorical variables into numeric variables"
     ]
   },
   {
-    "question": "Hadoop achieves fault tolerance mainly through:",
+    "question": "Which test is used to explore the relationship or association between two categorical variables?",
     "options": [
-      "Data replication",
-      "Manual backups",
-      "External hard drives",
-      "Single-node processing"
+      "Chi-Square Test",
+      "Pearson Correlation",
+      "Independent-Samples T-test",
+      "One-Way ANOVA"
     ]
   },
   {
-    "question": "What does HDFS stand for?",
+    "question": "The Pearson Product-Moment Correlation measures:",
     "options": [
-      "Hadoop Distributed File System",
-      "High Data File Storage",
-      "Hybrid Distributed File Service",
-      "Hadoop Data Framework Solution"
+      "The strength and direction of a linear relationship between two continuous variables",
+      "The difference in means between two independent groups",
+      "The association between two categorical variables",
+      "The variance among three or more groups"
     ]
   },
   {
-    "question": "The NameNode in HDFS is responsible for:",
+    "question": "Which correlation method is a non-parametric alternative used when data is measured on an ordinal scale or fails normality assumptions?",
     "options": [
-      "Managing file system metadata",
-      "Storing all user data blocks",
-      "Running Spark jobs",
-      "Managing SQL queries"
+      "Spearman's Rank Correlation",
+      "Pearson Correlation",
+      "Independent-Samples T-test",
+      "Chi-Square Test"
     ]
   },
   {
-    "question": "The DataNode in HDFS primarily:",
+    "question": "Which of the following is considered a parametric test in SPSS?",
     "options": [
-      "Stores actual data blocks",
-      "Schedules jobs",
-      "Acts as a database server",
-      "Controls ApplicationMasters"
+      "Analysis of Variance (ANOVA)",
+      "Chi-Square Test",
+      "Kruskal-Wallis Test",
+      "Spearman's Correlation"
     ]
   },
   {
-    "question": "Which HDFS component stores metadata?",
+    "question": "Which of the following is considered a non-parametric test?",
     "options": [
-      "NameNode",
-      "DataNode",
-      "RegionServer",
-      "NodeManager"
+      "Kruskal-Wallis Test",
+      "One-Way ANOVA",
+      "Independent-Samples T-test",
+      "Pearson Correlation"
     ]
   },
   {
-    "question": "A block in HDFS is:",
+    "question": "The Kruskal-Wallis test is the non-parametric equivalent of which parametric test?",
     "options": [
-      "The basic unit of file storage",
-      "A network cable",
-      "A security protocol",
-      "A type of database"
+      "One-Way ANOVA",
+      "Independent-Samples T-test",
+      "Paired-Samples T-test",
+      "Pearson Correlation"
     ]
   },
   {
-    "question": "Why are files split into blocks in HDFS?",
+    "question": "What type of chart is best suited for showing the frequency distribution of continuous data by dividing the data into bins?",
     "options": [
-      "To support distributed storage and parallel processing",
-      "To reduce RAM usage only",
-      "To improve graphics rendering",
-      "To simplify passwords"
+      "Histogram",
+      "Pie Chart",
+      "Bar Chart",
+      "Scatter Diagram"
     ]
   },
   {
-    "question": "Which is a feature of HDFS?",
+    "question": "Which chart is most appropriate for visualizing the correlation or relationship between two continuous numeric variables?",
     "options": [
-      "High throughput",
-      "Low fault tolerance",
-      "Single machine storage",
-      "No replication"
+      "Scatter Diagram",
+      "Pie Chart",
+      "Line Chart",
+      "Bar Chart"
     ]
   },
   {
-    "question": "Which is a goal of HDFS?",
+    "question": "To display the proportion of different categories making up a whole, which chart should you use in SPSS?",
     "options": [
-      "Reliable storage of large datasets",
-      "Replacing all databases",
-      "Running only small files",
-      "Reducing internet speed"
+      "Pie Chart",
+      "Histogram",
+      "Line Chart",
+      "Scatter Diagram"
     ]
   },
   {
-    "question": "HDFS is best suited for:",
+    "question": "In SPSS terminology, what does a 'missing value' indicate?",
     "options": [
-      "Large-scale data storage",
-      "Real-time banking transactions",
-      "Small random file updates",
-      "Gaming graphics"
+      "Data that was not recorded or is unavailable for a particular case and variable",
+      "A statistical error calculated during an ANOVA test",
+      "A variable that has not been given a name yet",
+      "A chart that failed to generate in the Output View"
     ]
   },
   {
-    "question": "Which situation is NOT ideal for HDFS?",
+    "question": "Under the 'Measure' column in Variable View, which setting should be used for categorical variables without any inherent order (e.g., Eye Color)?",
     "options": [
-      "Applications requiring low-latency random access",
-      "Large archive storage",
-      "Log file analysis",
-      "Scientific data storage"
+      "Nominal",
+      "Ordinal",
+      "Scale",
+      "Continuous"
     ]
   },
   {
-    "question": "Data locality means:",
+    "question": "Under the 'Measure' column, which setting is appropriate for continuous data like height, weight, or test scores?",
     "options": [
-      "Processing data near where it is stored",
-      "Keeping data in one city",
-      "Using local hard drives only",
-      "Storing data offline"
+      "Scale",
+      "Ordinal",
+      "Nominal",
+      "String"
     ]
   },
   {
-    "question": "MapReduce is a:",
+    "question": "Under the 'Measure' column, which setting is used for categorical data that has a logical rank or order (e.g., Education Level)?",
     "options": [
-      "Distributed programming model for processing large datasets",
-      "NoSQL database",
-      "Visualization tool",
-      "Cloud provider"
+      "Ordinal",
+      "Nominal",
+      "Scale",
+      "Numeric"
     ]
   },
   {
-    "question": "Which phase of MapReduce creates key-value pairs?",
+    "question": "Which function in SPSS allows you to assign ranks to cases based on the value of a specific variable?",
     "options": [
-      "Map phase",
-      "Reduce phase",
-      "Shuffle phase",
-      "Storage phase"
+      "Rank Cases",
+      "Visual Binning",
+      "Compute Variable",
+      "Automatic Recode"
     ]
   },
   {
-    "question": "The Shuffle and Sort phase is used to:",
+    "question": "What does a Two-Way ANOVA allow a researcher to test?",
     "options": [
-      "Group similar keys together",
-      "Delete duplicate records",
-      "Compress files",
-      "Encrypt data"
+      "The main effects of two independent variables on a dependent variable, and their interaction",
+      "The difference in means between exactly two independent groups",
+      "The correlation between two continuous variables",
+      "The frequency distribution of two categorical variables"
     ]
   },
   {
-    "question": "The Reduce phase mainly:",
+    "question": "In regression analysis within SPSS, what is the 'dependent variable'?",
     "options": [
-      "Aggregates and processes grouped data",
-      "Splits files into blocks",
-      "Stores metadata",
-      "Allocates memory"
+      "The outcome or response variable that the model is trying to predict",
+      "The variable used to predict the outcome",
+      "A variable that remains constant throughout the entire dataset",
+      "A categorical variable used solely to group data"
     ]
   },
   {
-    "question": "Which is an application of MapReduce?",
+    "question": "Descriptive statistics differ from inferential statistics in that descriptive statistics:",
     "options": [
-      "Log analysis",
-      "Word processing",
-      "Photo editing",
-      "Spreadsheet formatting"
+      "Summarize and describe the features of a specific dataset",
+      "Make predictions or generalizations about a population from a sample",
+      "Test hypotheses to find significant differences between groups",
+      "Use probabilities to infer relationships between variables"
     ]
   },
   {
-    "question": "The JobTracker is responsible for:",
+    "question": "Inferential statistics are primarily used to:",
     "options": [
-      "Assigning and monitoring MapReduce jobs",
-      "Storing HDFS blocks",
-      "Managing MongoDB collections",
-      "Controlling Kafka streams"
+      "Draw conclusions and make predictions about a larger population based on a sample",
+      "Calculate the exact average of every single individual in a population",
+      "Create visual charts and graphs for raw data",
+      "Find data entry errors in the SPSS Data View"
     ]
   },
   {
-    "question": "The TaskTracker is responsible for:",
+    "question": "Which menu in SPSS would you click first to run a frequency distribution?",
     "options": [
-      "Executing assigned tasks",
-      "Managing metadata",
-      "Allocating cloud storage",
-      "Creating Spark DataFrames"
+      "Analyze",
+      "Transform",
+      "Data",
+      "Graphs"
     ]
   },
   {
-    "question": "Which comes immediately after the Map phase?",
+    "question": "To create a bar chart in SPSS, which primary menu option can you use?",
     "options": [
-      "Shuffle and Sort",
-      "Reduce",
-      "Output",
-      "Storage"
+      "Graphs",
+      "Transform",
+      "Data",
+      "Edit"
     ]
   },
   {
-    "question": "What does YARN stand for?",
+    "question": "In a dataset of students, 'Student ID' would best be classified as what type of variable role?",
     "options": [
-      "Yet Another Resource Negotiator",
-      "Your Application Resource Network",
-      "Yield and Run Nodes",
-      "Yet Another Runtime Node"
+      "Identification number",
+      "Dependent variable",
+      "Missing value",
+      "Continuous variable"
     ]
   },
   {
-    "question": "YARN is mainly responsible for:",
+    "question": "What does the 'Align' property dictate in the SPSS Variable View?",
     "options": [
-      "Resource management and job scheduling",
-      "Video streaming",
-      "Database indexing",
-      "Network encryption"
+      "How the data values are visually justified (left, right, center) within the Data View cells",
+      "How the variable correlates with other variables",
+      "The mathematical scale of the data",
+      "Whether the variable is placed at the top or bottom of the dataset"
     ]
   },
   {
-    "question": "Which YARN component allocates cluster resources?",
+    "question": "If an SPSS user wants to group ages (e.g., 22, 25, 29) into a new variable called 'Age Group' (e.g., 20-30), which transformation is most appropriate?",
     "options": [
-      "ResourceManager",
-      "NodeManager",
-      "TaskTracker",
-      "DataNode"
+      "Recode into Different Variables",
+      "Compute Variable",
+      "Rank Cases",
+      "Sort Cases"
     ]
   },
   {
-    "question": "Which YARN component runs on each worker node?",
+    "question": "The 'Automatic Recode' feature in SPSS is often used to:",
     "options": [
-      "NodeManager",
-      "NameNode",
-      "ApplicationMaster",
-      "JobTracker"
+      "Convert string variables into numeric categorical variables safely",
+      "Automatically calculate the mean and standard deviation of all columns",
+      "Delete rows that contain missing values",
+      "Transform a continuous variable into a normally distributed variable"
     ]
   },
   {
-    "question": "The ApplicationMaster is responsible for:",
+    "question": "What is the role of 'Decimals' in the Variable View?",
     "options": [
-      "Managing the execution of a specific application",
-      "Storing HDFS metadata",
-      "Hosting databases",
-      "Running SQL queries"
+      "It determines how many decimal places are displayed for numeric data in the Data View",
+      "It restricts the user from typing whole numbers",
+      "It converts string data into numeric data automatically",
+      "It acts as a multiplier for all data in that column"
     ]
   },
   {
-    "question": "In YARN, a container is:",
+    "question": "When interpreting output from a T-test in SPSS, what does a p-value (Sig.) of less than 0.05 typically indicate?",
     "options": [
-      "A bundle of allocated resources",
-      "A physical server rack",
-      "A file block",
-      "A NoSQL document"
+      "There is a statistically significant difference between the groups",
+      "There is no statistically significant difference between the groups",
+      "The data was entered incorrectly",
+      "The sample size is too small to draw a conclusion"
     ]
   },
   {
-    "question": "A benefit of YARN is:",
+    "question": "Which of the following is a key similarity between descriptive and inferential statistics in SPSS?",
     "options": [
-      "Support for multiple processing frameworks",
-      "It removes the need for HDFS",
-      "It only supports MapReduce",
-      "It eliminates networking"
+      "Both are analytical methods used to draw meaningful insights from data",
+      "Both are exclusively used to predict future trends in population data",
+      "Both can only be applied to string/text variables",
+      "Both require a standard deviation of zero to be accurate"
     ]
   },
   {
-    "question": "HBase is a:",
+    "question": "To conduct a Chi-Square test in SPSS, you would navigate through the 'Analyze' menu to:",
     "options": [
-      "Distributed column-oriented NoSQL database",
-      "Relational database",
-      "Visualization library",
-      "Programming language"
+      "Descriptive Statistics > Crosstabs",
+      "Compare Means > Independent-Samples T-test",
+      "Correlate > Bivariate",
+      "General Linear Model > Univariate"
     ]
   },
   {
-    "question": "HBase is built on top of:",
+    "question": "What is the prerequisite course for DTS 211 according to the provided course material?",
     "options": [
-      "HDFS",
-      "MySQL",
-      "Oracle",
-      "AWS S3"
+      "STA 101 - Descriptive statistics",
+      "CSC 101 - Introduction to Computing",
+      "MTH 101 - General Mathematics",
+      "DTS 101 - Introduction to Data Science"
     ]
   },
   {
-    "question": "HBase is best suited for:",
+    "question": "Which of the following describes the difference between a Bar chart and a Line chart in SPSS?",
     "options": [
-      "Real-time random read/write access",
-      "Sequential tape backups",
-      "Spreadsheet editing",
-      "Image rendering"
+      "Bar charts use rectangular bars to show frequency/magnitude, while Line charts use connected data points often showing trends over time",
+      "Bar charts are only for continuous data, while Line charts are only for categorical data",
+      "Bar charts require three variables, while Line charts only require one",
+      "There is no difference; they are two names for the same graph in SPSS"
     ]
   },
   {
-    "question": "Data in HBase is organized into:",
+    "question": "In Regression analysis, what statistic is commonly evaluated to determine how much variance in the dependent variable is explained by the independent variable(s)?",
     "options": [
-      "Tables, rows, and column families",
-      "Worksheets and slides",
-      "Classes and objects",
-      "Folders and files"
+      "R-squared (R²)",
+      "Cronbach's Alpha",
+      "Chi-Square statistic",
+      "Levene's Test for Equality of Variances"
     ]
   },
   {
-    "question": "Which of the following best differentiates HBase from HDFS?",
+    "question": "Which of the following data types allows letters, numbers, and symbols to be entered in an SPSS cell?",
     "options": [
-      "HBase provides database functionality while HDFS provides file storage",
-      "HBase stores only images",
-      "HDFS is a programming language",
-      "They are identical"
+      "String",
+      "Numeric",
+      "Comma",
+      "Dot"
     ]
   },
   {
-    "question": "HBase belongs to which category of databases?",
+    "question": "When configuring a variable, what is the function of the 'Label' column?",
     "options": [
-      "NoSQL",
-      "Relational",
-      "Hierarchical",
-      "Network"
+      "To provide a longer, more descriptive name for the variable than the short 'Name' allows",
+      "To specify which values are treated as missing data",
+      "To link the dataset to external databases",
+      "To define the mathematical formula used to compute the variable"
     ]
   },
   {
-    "question": "MongoDB is a:",
+    "question": "Which of the following is a strict rule when naming a variable in SPSS?",
     "options": [
-      "Document-oriented NoSQL database",
-      "Relational database",
-      "Spreadsheet application",
-      "Distributed file system"
+      "The name cannot contain spaces",
+      "The name must start with a number",
+      "The name must contain at least one special character",
+      "The name cannot exceed four characters in length"
     ]
   },
   {
-    "question": "MongoDB stores data in:",
+    "question": "What does the acronym SPSS originally stand for?",
     "options": [
-      "BSON documents",
-      "Rows and columns only",
-      "Plain text files",
-      "Binary trees"
+      "Statistical Package for the Social Sciences",
+      "Statistical Processing and Sorting System",
+      "Standard Procedures for Statistical Sampling",
+      "Scientific Program for Social Studies"
     ]
   },
   {
-    "question": "CRUD stands for:",
+    "question": "In the SPSS Data View, what do the columns represent?",
     "options": [
-      "Create, Read, Update, Delete",
-      "Copy, Run, Upload, Download",
-      "Create, Remove, Undo, Deploy",
-      "Connect, Read, Use, Disconnect"
+      "Variables",
+      "Cases",
+      "Missing values",
+      "Statistical outputs"
     ]
   },
   {
-    "question": "Which is an advantage of NoSQL databases?",
+    "question": "In the SPSS Variable View, what do the rows represent?",
     "options": [
-      "Flexible schema",
-      "Rigid table structure",
-      "No scalability",
-      "Only supports numeric data"
+      "Variables",
+      "Cases",
+      "Properties of the data",
+      "Participants"
     ]
   },
   {
-    "question": "Which type of NoSQL database is MongoDB?",
+    "question": "What property dictates the maximum number of characters that can be entered for a string variable?",
     "options": [
-      "Document store",
-      "Graph database",
-      "Key-value store",
-      "Column-family store"
+      "Width",
+      "Columns",
+      "Decimals",
+      "Measure"
     ]
   },
   {
-    "question": "Apache Spark is known for:",
+    "question": "What is the standard file extension for an SPSS data file?",
     "options": [
-      "In-memory data processing",
-      "Using only disk storage",
-      "Being a relational database",
-      "Replacing the internet"
+      ".sav",
+      ".spv",
+      ".sps",
+      ".csv"
     ]
   },
   {
-    "question": "Compared to Hadoop MapReduce, Spark is generally:",
+    "question": "What is the standard file extension for an SPSS output file?",
     "options": [
-      "Faster",
-      "Always slower",
-      "Unable to scale",
-      "Limited to one computer"
+      ".spv",
+      ".sav",
+      ".sps",
+      ".docx"
     ]
   },
   {
-    "question": "Which Spark component is used for machine learning?",
+    "question": "Which SPSS window allows advanced users to write and execute programming commands instead of using the graphical menus?",
     "options": [
-      "MLlib",
-      "GraphX",
-      "HDFS",
-      "YARN"
+      "Syntax Editor",
+      "Data Editor",
+      "Output Viewer",
+      "Chart Builder"
     ]
   },
   {
-    "question": "Spark SQL is designed for:",
+    "question": "How does SPSS typically display a 'system-missing' value in a numeric column within the Data View?",
     "options": [
-      "Structured data processing",
-      "Photo editing",
-      "Network routing",
-      "Operating systems"
+      "As a single period or dot (.)",
+      "As the word 'NULL'",
+      "As a zero (0)",
+      "As a blank space"
     ]
   },
   {
-    "question": "Which Spark abstraction is a distributed collection of objects?",
+    "question": "Which menu would you use to compute a new variable from existing ones?",
     "options": [
-      "RDD",
-      "CSV",
-      "BSON",
-      "DNS"
+      "Transform",
+      "Analyze",
+      "Data",
+      "Edit"
     ]
   },
   {
-    "question": "Spark DataFrames are mainly used for:",
+    "question": "Which statistical test evaluates whether the variance of two or more groups are equal before running an ANOVA or T-test?",
     "options": [
-      "Working with structured data",
-      "Network monitoring",
-      "HDFS replication",
-      "Cloud billing"
+      "Levene's Test",
+      "Tukey's HSD Test",
+      "Pearson's Correlation",
+      "Kruskal-Wallis Test"
     ]
   },
   {
-    "question": "Batch processing refers to:",
+    "question": "What is the null hypothesis for a standard One-Way ANOVA test?",
     "options": [
-      "Processing stored data at intervals",
-      "Processing every event instantly",
-      "Deleting old data",
-      "Encrypting files"
+      "The means of all groups are equal",
+      "The means of all groups are completely different",
+      "The variances of all groups are unequal",
+      "There is a strong correlation between the groups"
     ]
   },
   {
-    "question": "Real-time processing means:",
+    "question": "What type of T-test is used to determine if a sample mean significantly differs from a known or hypothesized population mean?",
     "options": [
-      "Processing data immediately as it arrives",
-      "Waiting until the end of the day",
-      "Storing data offline",
-      "Compressing data"
+      "One-Sample T-test",
+      "Independent-Samples T-test",
+      "Paired-Samples T-test",
+      "Two-Way T-test"
     ]
   },
   {
-    "question": "Apache Kafka is primarily used for:",
+    "question": "Which SPSS feature under the 'Data' menu allows you to temporarily filter out participants who do not meet a certain condition?",
     "options": [
-      "Event streaming and data ingestion",
-      "Relational storage",
-      "Image editing",
-      "Machine learning"
+      "Select Cases",
+      "Split File",
+      "Sort Cases",
+      "Merge Files"
     ]
   },
   {
-    "question": "Apache Flume is mainly used for:",
+    "question": "Which feature allows you to run the exact same analysis separately for different groups (e.g., generating separate descriptive statistics for males and females)?",
     "options": [
-      "Collecting and moving log data",
-      "Creating SQL tables",
-      "Running MapReduce jobs",
-      "Managing containers"
+      "Split File",
+      "Select Cases",
+      "Rank Cases",
+      "Compute Variable"
     ]
   },
   {
-    "question": "Big Data analytics focuses on:",
+    "question": "If you are conducting a correlation analysis, what does a correlation coefficient (r) of +1 indicate?",
     "options": [
-      "Discovering patterns and insights",
-      "Replacing databases",
-      "Building hardware",
-      "Compressing images"
+      "A perfect positive linear relationship",
+      "No linear relationship",
+      "A perfect negative linear relationship",
+      "An error in the calculation"
     ]
   },
   {
-    "question": "Descriptive analytics answers the question:",
+    "question": "What is the acceptable range for a Pearson correlation coefficient?",
     "options": [
-      "What happened?",
-      "What should we do?",
-      "What will happen?",
-      "Why did it happen?"
+      "Between -1.0 and +1.0",
+      "Between 0 and 100",
+      "Between 0 and 1.0",
+      "Between -100 and +100"
     ]
   },
   {
-    "question": "Predictive analytics answers:",
+    "question": "Which is the non-parametric equivalent of the Independent-Samples T-test?",
     "options": [
-      "What is likely to happen?",
-      "What happened?",
-      "Who created the data?",
-      "Where is the server?"
+      "Mann-Whitney U Test",
+      "Wilcoxon Signed-Rank Test",
+      "Kruskal-Wallis Test",
+      "Spearman's Correlation"
     ]
   },
   {
-    "question": "Prescriptive analytics helps determine:",
+    "question": "Which is the non-parametric equivalent of the Paired-Samples T-test?",
     "options": [
-      "What should be done",
-      "What happened",
-      "Who owns the dataset",
-      "How many servers exist"
+      "Wilcoxon Signed-Rank Test",
+      "Mann-Whitney U Test",
+      "Kruskal-Wallis Test",
+      "Chi-Square Test"
     ]
   },
   {
-    "question": "The primary goal of data visualization is:",
+    "question": "What is mathematically defined as the square root of the variance?",
     "options": [
-      "To communicate patterns and insights clearly",
-      "To reduce storage space",
-      "To replace databases",
-      "To encrypt files"
+      "Standard Deviation",
+      "Range",
+      "Mean",
+      "Median"
     ]
   },
   {
-    "question": "Which of these is a visualization tool?",
+    "question": "In a normal distribution, what percentage of data falls within one standard deviation of the mean?",
     "options": [
-      "Matplotlib",
-      "MongoDB",
-      "Kafka",
-      "HDFS"
+      "Approximately 68%",
+      "Approximately 95%",
+      "Approximately 99%",
+      "100%"
     ]
   },
   {
-    "question": "Tableau is mainly used for:",
+    "question": "Which chart type is specifically used to plot the exact median, quartiles, and outliers of a continuous dataset?",
     "options": [
-      "Data visualization",
-      "Distributed storage",
-      "Machine learning only",
-      "NoSQL storage"
+      "Box Plot",
+      "Scatter Diagram",
+      "Histogram",
+      "Area Chart"
     ]
   },
   {
-    "question": "AWS S3 is primarily a:",
+    "question": "What is the purpose of a Q-Q (Quantile-Quantile) plot in SPSS?",
     "options": [
-      "Cloud storage service",
-      "Machine learning library",
-      "Programming language",
-      "Database query engine"
+      "To visually check if a dataset follows a normal distribution",
+      "To show the correlation between two categorical variables",
+      "To identify the exact mean and median of the dataset",
+      "To display the proportion of missing values"
     ]
   },
   {
-    "question": "AWS Athena is used to:",
+    "question": "Which data property in SPSS sets the display width of the variable column purely for the Data View interface, without affecting the actual data length?",
     "options": [
-      "Query data using SQL",
-      "Run mobile apps",
-      "Create operating systems",
-      "Manage DNS"
+      "Columns",
+      "Width",
+      "Align",
+      "Decimals"
     ]
   },
   {
-    "question": "Which is NOT a major cloud provider?",
+    "question": "If you want to compare the frequency counts of two categorical variables simultaneously (e.g., Gender by Education Level), which analysis should you use?",
     "options": [
-      "Apache HBase",
-      "AWS",
-      "Google Cloud",
-      "Microsoft Azure"
+      "Crosstabs",
+      "Descriptives",
+      "Explore",
+      "One-Way ANOVA"
     ]
   },
   {
-    "question": "One advantage of using cloud services for Big Data is:",
+    "question": "Which value measures the exact middle point of a dataset when the values are arranged in ascending order?",
     "options": [
-      "Elastic scalability",
-      "Fixed hardware limits",
-      "No internet access",
-      "No security features"
+      "Median",
+      "Mean",
+      "Mode",
+      "Range"
     ]
   },
   {
-    "question": "A common Big Data security concern is:",
+    "question": "What is the primary characteristic of an 'Ordinal' variable?",
     "options": [
-      "Data breaches",
-      "Improved scalability",
-      "Faster processing",
-      "Lower storage"
+      "Its categories have a logical or meaningful rank order",
+      "Its categories have no inherent order or ranking",
+      "It represents measurable numerical distances",
+      "It can only contain text or string data"
     ]
   },
   {
-    "question": "Which technique helps protect sensitive data?",
+    "question": "Which of the following is an example of a 'Nominal' variable?",
     "options": [
-      "Encryption",
-      "Replication",
-      "Compression",
-      "Sorting"
+      "Blood Type (A, B, AB, O)",
+      "Income Bracket (Low, Medium, High)",
+      "Temperature in Celsius",
+      "Age in years"
     ]
   },
   {
-    "question": "Authentication is used to:",
+    "question": "To perform a simple linear regression in SPSS, which path would you follow from the 'Analyze' menu?",
     "options": [
-      "Verify the identity of a user",
-      "Increase storage size",
-      "Delete records",
-      "Create backups"
+      "Regression > Linear",
+      "Correlate > Bivariate",
+      "Compare Means > Linear",
+      "General Linear Model > Univariate"
     ]
   },
   {
-    "question": "Which technology is better suited for real-time processing?",
+    "question": "In a regression model, the independent variable is also commonly referred to as the:",
     "options": [
-      "Apache Spark",
-      "Traditional MapReduce",
-      "Magnetic tape",
-      "Manual records"
+      "Predictor variable",
+      "Outcome variable",
+      "Response variable",
+      "Confounding variable"
     ]
   },
   {
-    "question": "Which database model uses rows and columns?",
+    "question": "Which of these is a measure of dispersion that represents the average squared distance of data points from the mean?",
     "options": [
-      "Relational database",
-      "Document database",
-      "Column-family NoSQL",
-      "Graph database"
+      "Variance",
+      "Standard Deviation",
+      "Range",
+      "Median"
     ]
   },
   {
-    "question": "Which database model is known for flexible schemas?",
+    "question": "If a researcher wants to merge two separate SPSS datasets that contain the same variables but different participants, which feature should they use?",
     "options": [
-      "NoSQL",
-      "Relational",
-      "Hierarchical only",
-      "Flat file"
+      "Add Cases",
+      "Add Variables",
+      "Split File",
+      "Compute Variable"
     ]
   },
   {
-    "question": "Which Hadoop component is responsible for storage?",
+    "question": "If a researcher wants to merge two separate datasets that contain the exact same participants but different variables, which feature should they use?",
     "options": [
-      "HDFS",
-      "YARN",
-      "Spark SQL",
-      "Kafka"
+      "Add Variables",
+      "Add Cases",
+      "Select Cases",
+      "Rank Cases"
     ]
   },
   {
-    "question": "Which Hadoop component is responsible for processing?",
+    "question": "What does an 'Area Chart' typically emphasize in statistical visualization?",
     "options": [
-      "MapReduce",
-      "HDFS",
-      "MongoDB",
-      "Flume"
+      "The magnitude of change and cumulative totals over a period of time",
+      "The individual distribution of unrelated categorical groups",
+      "The correlation outliers in a linear regression model",
+      "The exact frequency of missing values in the dataset"
     ]
   },
   {
-    "question": "Which combination correctly matches Hadoop components?",
+    "question": "What is the name of the post-hoc test commonly used to control for Type I errors when conducting multiple pairwise comparisons after an ANOVA?",
     "options": [
-      "HDFS for storage and MapReduce for processing",
-      "YARN for storage and HBase for processing",
-      "MongoDB for storage and HDFS for analytics",
-      "Kafka for storage and Spark SQL for networking"
+      "Tukey's HSD (Honestly Significant Difference)",
+      "Levene's Test",
+      "Pearson's r",
+      "Shapiro-Wilk Test"
     ]
   },
   {
-    "question": "In the 5 Vs of Big Data, Volume refers to:",
+    "question": "Which test statistic is analyzed to determine the significance of an ANOVA test?",
     "options": [
-      "amount of data generated",
-      "distributed computing",
-      "machine learning",
-      "database normalization"
+      "F-statistic",
+      "T-statistic",
+      "Chi-square value",
+      "R-squared"
     ]
   },
   {
-    "question": "In the 5 Vs of Big Data, Velocity refers to:",
+    "question": "Which test statistic is primarily analyzed to determine the significance of a Chi-Square test?",
     "options": [
-      "speed of data generation",
-      "distributed computing",
-      "machine learning",
-      "database normalization"
+      "Chi-Square value",
+      "F-statistic",
+      "T-statistic",
+      "Z-score"
     ]
   },
   {
-    "question": "In the 5 Vs of Big Data, Variety refers to:",
+    "question": "In the 'Explore' command in SPSS, which table provides measures such as the mean, 5% trimmed mean, and interquartile range all at once?",
     "options": [
-      "different forms of data",
-      "distributed computing",
-      "machine learning",
-      "database normalization"
+      "Descriptives table",
+      "Frequencies table",
+      "ANOVA table",
+      "Correlations table"
     ]
   },
   {
-    "question": "In the 5 Vs of Big Data, Veracity refers to:",
+    "question": "What is the primary function of the 'Missing' column in Variable View?",
     "options": [
-      "quality and reliability of data",
-      "distributed computing",
-      "machine learning",
-      "database normalization"
+      "To declare specific numerical codes (e.g., 99) as missing data so they are excluded from calculations",
+      "To find and delete all blank cells in the dataset",
+      "To automatically replace missing values with the mean of the column",
+      "To highlight missing data in red within the Data View"
     ]
   },
   {
-    "question": "In the 5 Vs of Big Data, Value refers to:",
+    "question": "Which of these variable names is valid in SPSS?",
     "options": [
-      "useful insights obtained from data",
-      "distributed computing",
-      "machine learning",
-      "database normalization"
+      "Age_in_Years",
+      "Age in Years",
+      "1st_Age",
+      "Age-in-Years"
     ]
   },
   {
-    "question": "Which Hadoop feature allows recovery from hardware failure?",
+    "question": "If your data violates the assumption of normal distribution, what category of statistical tests should you generally rely on?",
     "options": [
-      "Fault tolerance",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "Non-parametric tests",
+      "Parametric tests",
+      "General Linear Models",
+      "Post-hoc tests"
     ]
   },
   {
-    "question": "Which HDFS node stores the actual file contents?",
+    "question": "What term describes the smallest and largest values in a dataset?",
     "options": [
-      "DataNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "Minimum and Maximum",
+      "Mean and Median",
+      "Variance and Standard Deviation",
+      "Quartiles and Percentiles"
     ]
   },
   {
-    "question": "Which component manages HDFS metadata?",
+    "question": "Which analysis is best for summarizing a single continuous variable to find its central tendency and dispersion?",
     "options": [
-      "NameNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "Descriptives",
+      "Crosstabs",
+      "Chi-Square",
+      "Pearson Correlation"
     ]
   },
   {
-    "question": "Which framework can run alongside MapReduce under YARN?",
+    "question": "What does a line chart typically display best?",
     "options": [
-      "Apache Spark",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "Trends of a continuous variable over continuous time intervals",
+      "The correlation between two unrelated demographic variables",
+      "The percentage breakdown of a single categorical variable",
+      "The central tendency of ordinal data"
     ]
   },
   {
-    "question": "Which NoSQL database was introduced in the course outline?",
+    "question": "According to the course material, what percentage of the total marks does the Test component account for?",
     "options": [
-      "MongoDB",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "20%",
+      "10%",
+      "60%",
+      "100%"
     ]
   },
   {
-    "question": "Which Hadoop feature allows recovery from hardware failure?",
+    "question": "According to the course material, what percentage of the total marks does the Examination component account for?",
     "options": [
-      "Fault tolerance",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "60%",
+      "20%",
+      "10%",
+      "100%"
     ]
   },
   {
-    "question": "Which HDFS node stores the actual file contents?",
+    "question": "According to the course material, what percentage of the total marks does the Project component account for?",
     "options": [
-      "DataNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "10%",
+      "20%",
+      "60%",
+      "100%"
     ]
   },
   {
-    "question": "Which component manages HDFS metadata?",
+    "question": "In terms of data entry, what happens if you try to type text into a variable column defined as 'Numeric' in Variable View?",
     "options": [
-      "NameNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "SPSS will not accept the input or will delete it when you press Enter",
+      "SPSS will automatically change the variable type to String",
+      "SPSS will convert the text into binary code",
+      "SPSS will crash and close the file"
     ]
   },
   {
-    "question": "Which framework can run alongside MapReduce under YARN?",
+    "question": "When defining the 'Type' of a variable, which option should be selected for variables that represent currency?",
     "options": [
-      "Apache Spark",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "Dollar or Custom Currency",
+      "String",
+      "Date",
+      "Restricted Numeric"
     ]
   },
   {
-    "question": "Which NoSQL database was introduced in the course outline?",
+    "question": "The 'Values' column in Variable View is most critically used for which type of data?",
     "options": [
-      "MongoDB",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which Hadoop feature allows recovery from hardware failure?",
-    "options": [
-      "Fault tolerance",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which HDFS node stores the actual file contents?",
-    "options": [
-      "DataNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which component manages HDFS metadata?",
-    "options": [
-      "NameNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which framework can run alongside MapReduce under YARN?",
-    "options": [
-      "Apache Spark",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which NoSQL database was introduced in the course outline?",
-    "options": [
-      "MongoDB",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which Hadoop feature allows recovery from hardware failure?",
-    "options": [
-      "Fault tolerance",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which HDFS node stores the actual file contents?",
-    "options": [
-      "DataNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which component manages HDFS metadata?",
-    "options": [
-      "NameNode",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which framework can run alongside MapReduce under YARN?",
-    "options": [
-      "Apache Spark",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
-    ]
-  },
-  {
-    "question": "Which NoSQL database was introduced in the course outline?",
-    "options": [
-      "MongoDB",
-      "Apache Office",
-      "FTP Server",
-      "HTML"
+      "Nominal and Ordinal categorical data",
+      "Scale continuous data",
+      "Date and Time data",
+      "Unrestricted String data"
     ]
   }
 ]
