@@ -1,902 +1,695 @@
 [
   {
-    "question": "What is the primary purpose of the SPSS software?",
+    "question": "What structural layout character setup explicitly designates a Python class method as a 'Magic Method' or 'Dunder Method'?",
     "options": [
-      "Statistical analysis and data management",
-      "Word processing and document formatting",
-      "Graphic design and video editing",
-      "Web hosting and database routing"
+      "Starting and ending with double underscores __",
+      "Beginning with a hash mark #",
+      "Enclosure in square brackets []",
+      "Suffixing with an arrow flag ->"
     ]
   },
   {
-    "question": "In SPSS, which view is primarily used to configure the properties of the data, such as name, type, and labels?",
+    "question": "Which specific magic method dictates what clean, human-readable text gets generated when an instantiated object is called directly within a print() event?",
     "options": [
-      "Variable View",
-      "Data View",
-      "Output View",
-      "Syntax View"
+      "__str__",
+      "__init__",
+      "__repr__",
+      "__add__"
     ]
   },
   {
-    "question": "Which of the following is NOT a valid property that can be defined for a variable in SPSS Variable View?",
+    "question": "What structural programming concept handles creating object instances dynamically based on varying input criteria parameters?",
     "options": [
-      "Syntax",
-      "Width",
-      "Decimals",
-      "Measure"
+      "Class Factory Pattern",
+      "Thread Resource Lock",
+      "Event Binding Protocol",
+      "Relational Data Mapping"
     ]
   },
   {
-    "question": "What is the default data type assigned to a new variable in SPSS?",
+    "question": "Which python graphic development library serves as the native, built-in standard tool for designing local desktop Graphical User Interfaces?",
     "options": [
-      "Numeric",
-      "String",
-      "Date",
-      "Comma"
+      "Tkinter",
+      "PyQt",
+      "SQLite3",
+      "Socket"
     ]
   },
   {
-    "question": "Which property in Variable View is used to assign text descriptions to specific numeric codes (e.g., 1 = Male, 2 = Female)?",
+    "question": "Which geometric placement function methods are available to arrange layout visual buttons and content windows within a Tkinter interface frame?",
     "options": [
-      "Values",
-      "Label",
-      "Name",
-      "Missing"
+      "pack(), grid(), or place()",
+      "format(), split(), or join()",
+      "try(), except(), or finally()",
+      "connect(), cursor(), or commit()"
     ]
   },
   {
-    "question": "Which of the following describes a 'case' in SPSS terminology?",
+    "question": "How are function triggers mapped to desktop UI widget components like buttons inside a Tkinter app script setup?",
     "options": [
-      "A single row representing one unit of observation or participant",
-      "A single column representing a measured attribute",
-      "A statistical test comparing two means",
-      "A missing data point in the dataset"
+      "Assigning the target callback function to the component's command parameter",
+      "Using loops references exclusively",
+      "Forcing a global exception event crash",
+      "Loading external style dictionaries"
     ]
   },
   {
-    "question": "In the context of SPSS data transformation, what does the 'Compute Variable' function allow you to do?",
+    "question": "Which lightweight, serverless relational database engine comes natively included with Python's standard library?",
     "options": [
-      "Create a new variable by performing mathematical operations on existing variables",
-      "Delete variables that contain too many missing values",
-      "Automatically generate a final report of descriptive statistics",
-      "Change a numeric variable into a string variable permanently"
+      "SQLite",
+      "PostgreSQL",
+      "MongoDB",
+      "MariaDB"
     ]
   },
   {
-    "question": "Which data transformation technique is used to convert continuous variables into distinct categories or intervals?",
+    "question": "What SQL command sequence structure safely stores records permanently into an established database grid layout?",
     "options": [
-      "Visual Binning",
-      "Ranking Cases",
-      "Computing Variables",
-      "Sorting Cases"
+      "cursor.execute('INSERT INTO table VALUES (...)')",
+      "cursor.execute('SELECT FROM table')",
+      "cursor.execute('DROP TABLE table')",
+      "cursor.execute('ALTER SCHEMA table')"
     ]
   },
   {
-    "question": "If you want to change the values of an existing variable (e.g., changing ages into age groups) without creating a new column, which option would you use?",
+    "question": "What action method must be executed on a database connection object to ensure that data modifications are committed to disk?",
     "options": [
-      "Recode into Same Variables",
-      "Recode into Different Variables",
-      "Automatic Recode",
-      "Compute Variable"
+      "conn.commit()",
+      "conn.close()",
+      "conn.rollback()",
+      "conn.cursor()"
     ]
   },
   {
-    "question": "Which measure of central tendency represents the arithmetic average of a dataset?",
+    "question": "What library module implements low-level network communication interfaces for setting up client-server network links?",
     "options": [
-      "Mean",
-      "Median",
-      "Mode",
-      "Standard Deviation"
+      "socket",
+      "http",
+      "requests",
+      "urllib"
     ]
   },
   {
-    "question": "Which of the following is a measure of dispersion?",
+    "question": "What operational method must a network server socket run to actively listen for incoming connection requests from client systems?",
     "options": [
-      "Variance",
-      "Median",
-      "Mean",
-      "Mode"
+      "socket.listen()",
+      "socket.connect()",
+      "socket.send()",
+      "socket.close()"
     ]
   },
   {
-    "question": "In descriptive statistics, what does the 'Range' represent?",
+    "question": "What concurrency feature enables computer applications to partition code paths to execute multiple tasks simultaneously?",
     "options": [
-      "The difference between the maximum and minimum values",
-      "The average distance of all data points from the mean",
-      "The most frequently occurring value in the dataset",
-      "The middle value when the data is sorted in ascending order"
+      "Threading",
+      "Database Querying",
+      "Type Casting",
+      "Single-Page Routing"
     ]
   },
   {
-    "question": "Which SPSS analysis provides a count of how often each value occurs in a dataset, along with percentages?",
+    "question": "What synchronization mechanism ensures that multiple execution threads cannot modify a shared memory resource simultaneously, preventing race conditions?",
     "options": [
-      "Frequencies",
-      "Descriptives",
-      "Crosstabs",
-      "Correlate"
+      "A resource lock (threading.Lock())",
+      "A routing map switch",
+      "A state mutation function",
+      "A custom exception trigger"
     ]
   },
   {
-    "question": "When comparing the means of exactly two independent groups, which inferential statistical test is most appropriate?",
+    "question": "Which architecture model describes a traditional website where every navigation request or action triggers a full page reload from a backend server?",
     "options": [
-      "Independent-Samples T-test",
-      "Paired-Samples T-test",
-      "One-Way ANOVA",
-      "Chi-Square Test"
+      "Multi-Page Application (MPA)",
+      "Single-Page Application (SPA)",
+      "Progressive Web Application (PWA)",
+      "Static Site Generation (SSG)"
     ]
   },
   {
-    "question": "Which test should be used to compare the means of two related groups, such as pre-test and post-test scores for the same individuals?",
+    "question": "What is the key performance advantage of a Single-Page Application (SPA) built with React over an MPA?",
     "options": [
-      "Paired-Samples T-test",
-      "Independent-Samples T-test",
-      "One-Way ANOVA",
-      "Pearson Correlation"
+      "The application loads HTML structure once, updating only necessary UI sections dynamically",
+      "The layout reloads entirely from scratch upon clicking internal links",
+      "It eliminates the need for any client-side JavaScript processing",
+      "It completely bypasses browser security sandboxing features"
     ]
   },
   {
-    "question": "If you want to compare the means of three or more independent groups, which test is required?",
+    "question": "React is fundamentally categorized as which type of architectural component?",
     "options": [
-      "One-Way ANOVA",
-      "Independent-Samples T-test",
-      "Chi-Square Test",
-      "Spearman's Rank Correlation"
+      "A JavaScript library focused strictly on the 'View' layer of user interfaces",
+      "A complete backend Model-View-Controller (MVC) server framework",
+      "A relational database management wrapper",
+      "A strict client-side operating system utility"
     ]
   },
   {
-    "question": "What is the purpose of conducting a Post-Hoc test after an ANOVA?",
+    "question": "Which feature allows React to perform high-speed user interface updates by computing changes in memory before touching the actual webpage layout?",
     "options": [
-      "To determine exactly which groups have significantly different means from each other",
-      "To calculate the total variance of the dataset",
-      "To check if the data is normally distributed before running the ANOVA",
-      "To convert categorical variables into numeric variables"
+      "The Virtual Document Object Model (Virtual DOM)",
+      "Directly accessing the browser hardware cache",
+      "Machine code compilation threads",
+      "Synchronous relational network schemas"
     ]
   },
   {
-    "question": "Which test is used to explore the relationship or association between two categorical variables?",
+    "question": "Which tool runtime is required to execute build scripts and manage local dependencies for a modern React project environment?",
     "options": [
-      "Chi-Square Test",
-      "Pearson Correlation",
-      "Independent-Samples T-test",
-      "One-Way ANOVA"
+      "Node.js",
+      "Apache Server",
+      "Python Runtime",
+      "MySQL Engine"
     ]
   },
   {
-    "question": "The Pearson Product-Moment Correlation measures:",
+    "question": "What is the primary operational role of Babel in a typical React compilation pipeline?",
     "options": [
-      "The strength and direction of a linear relationship between two continuous variables",
-      "The difference in means between two independent groups",
-      "The association between two categorical variables",
-      "The variance among three or more groups"
+      "Compiling modern ECMAScript/JSX source syntax down into browser-compatible JavaScript",
+      "Hosting application assets over secure cloud web servers",
+      "Bundling distinct images, modular files, and styles together into single static blocks",
+      "Standardizing local file database operations"
     ]
   },
   {
-    "question": "Which correlation method is a non-parametric alternative used when data is measured on an ordinal scale or fails normality assumptions?",
+    "question": "Which utility functions as a module bundler, taking disparate dependency files and combining them into consolidated output scripts?",
     "options": [
-      "Spearman's Rank Correlation",
-      "Pearson Correlation",
-      "Independent-Samples T-test",
-      "Chi-Square Test"
+      "Webpack",
+      "Babel",
+      "NPM CLI",
+      "Express"
     ]
   },
   {
-    "question": "Which of the following is considered a parametric test in SPSS?",
+    "question": "Which software utility is the standard built-in package manager bundled natively alongside Node.js installations?",
     "options": [
-      "Analysis of Variance (ANOVA)",
-      "Chi-Square Test",
-      "Kruskal-Wallis Test",
-      "Spearman's Correlation"
+      "NPM",
+      "Composer",
+      "Pip",
+      "Maven"
     ]
   },
   {
-    "question": "Which of the following is considered a non-parametric test?",
+    "question": "What standard command terminal entry is utilized to safely initialize a brand-new, empty default configuration file (package.json)?",
     "options": [
-      "Kruskal-Wallis Test",
-      "One-Way ANOVA",
-      "Independent-Samples T-test",
-      "Pearson Correlation"
+      "npm init -y",
+      "npm initialize",
+      "npm setup",
+      "npm boot"
     ]
   },
   {
-    "question": "The Kruskal-Wallis test is the non-parametric equivalent of which parametric test?",
+    "question": "What critical local file keeps tracking records of all explicit version metadata and package requirements installed inside a node project directory?",
     "options": [
-      "One-Way ANOVA",
-      "Independent-Samples T-test",
-      "Paired-Samples T-test",
-      "Pearson Correlation"
+      "package.json",
+      "index.html",
+      "babel.config",
+      "webpack.settings"
     ]
   },
   {
-    "question": "What type of chart is best suited for showing the frequency distribution of continuous data by dividing the data into bins?",
+    "question": "What software development methodology dictates that structured automated testing scripts should be written before implementation code is produced?",
     "options": [
-      "Histogram",
-      "Pie Chart",
-      "Bar Chart",
-      "Scatter Diagram"
+      "Test-Driven Development (TDD)",
+      "Agile Scrum Flow",
+      "Object Composition Mapping",
+      "Multi-Page App Architecture"
     ]
   },
   {
-    "question": "Which chart is most appropriate for visualizing the correlation or relationship between two continuous numeric variables?",
+    "question": "What standard built-in testing library module framework supports checking assertions via automated test classes?",
     "options": [
-      "Scatter Diagram",
-      "Pie Chart",
-      "Line Chart",
-      "Bar Chart"
+      "unittest",
+      "pytest",
+      "testsuite",
+      "assertlib"
     ]
   },
   {
-    "question": "To display the proportion of different categories making up a whole, which chart should you use in SPSS?",
+    "question": "What execution command safely packages a modular python codebase layout structure for formal distribution release compilation?",
     "options": [
-      "Pie Chart",
-      "Histogram",
-      "Line Chart",
-      "Scatter Diagram"
+      "python setup.py sdist",
+      "pip install requirements.txt",
+      "python --version",
+      "npm init -y"
     ]
   },
   {
-    "question": "In SPSS terminology, what does a 'missing value' indicate?",
+    "question": "Which software layout layer is strictly dedicated to managing interactive buttons, form validations, data visualizations, and browser views?",
     "options": [
-      "Data that was not recorded or is unavailable for a particular case and variable",
-      "A statistical error calculated during an ANOVA test",
-      "A variable that has not been given a name yet",
-      "A chart that failed to generate in the Output View"
+      "Frontend / Client-Side layer",
+      "Backend layer",
+      "Persistent database engine",
+      "Operating system registry"
     ]
   },
   {
-    "question": "Under the 'Measure' column in Variable View, which setting should be used for categorical variables without any inherent order (e.g., Eye Color)?",
+    "question": "Why is a Single-Page Application (SPA) architecture generally preferred over an MPA model for responsive modern dashboards?",
     "options": [
-      "Nominal",
-      "Ordinal",
-      "Scale",
-      "Continuous"
+      "It provides a faster user experience with instant transitions since code blocks are loaded up-front and updated without page refreshes",
+      "It completely eliminates the need for any CSS formatting rules",
+      "It requires less browser memory during standard operation",
+      "It is written exclusively using old-school server templates"
     ]
   },
   {
-    "question": "Under the 'Measure' column, which setting is appropriate for continuous data like height, weight, or test scores?",
+    "question": "In React development terminology, what does the term Data Immutability mean for state structures?",
     "options": [
-      "Scale",
-      "Ordinal",
-      "Nominal",
-      "String"
+      "State values must not be modified directly; instead, a new copy or object reference must be created and passed via the setter function",
+      "State arrays can be modified using methods like push or pop at any time",
+      "State data automatically updates when a user navigates to an external website URL",
+      "Immutability means that state cannot be updated once it is initialized"
     ]
   },
   {
-    "question": "Under the 'Measure' column, which setting is used for categorical data that has a logical rank or order (e.g., Education Level)?",
+    "question": "What operational benefit do modern React Hooks provide over old-school legacy ES6 Class component lifecycle structures?",
     "options": [
-      "Ordinal",
-      "Nominal",
-      "Scale",
-      "Numeric"
+      "They allow developers to use state and other React features without writing complex class objects",
+      "They enable faster backend SQL queries",
+      "They convert JSX directly into raw machine assembly files",
+      "They automatically style interactive elements in navy blue accents"
     ]
   },
   {
-    "question": "Which function in SPSS allows you to assign ranks to cases based on the value of a specific variable?",
+    "question": "What happens if a React component function lacks a formal return statement block or returns an undefined reference?",
     "options": [
-      "Rank Cases",
-      "Visual Binning",
-      "Compute Variable",
-      "Automatic Recode"
+      "React fails to render anything and throws a compilation error or warning",
+      "The browser switches to standard HTML mode automatically",
+      "The file system deletes the associated folder path",
+      "The program switches into a threaded database lock mode"
     ]
   },
   {
-    "question": "What does a Two-Way ANOVA allow a researcher to test?",
+    "question": "How does a child component access individual passed properties within a functional declaration?",
     "options": [
-      "The main effects of two independent variables on a dependent variable, and their interaction",
-      "The difference in means between exactly two independent groups",
-      "The correlation between two continuous variables",
-      "The frequency distribution of two categorical variables"
+      "As named parameters within the component function's input object (props)",
+      "Through global environment properties",
+      "Via the this.state instance property path",
+      "Using global terminal environment flags"
     ]
   },
   {
-    "question": "In regression analysis within SPSS, what is the 'dependent variable'?",
+    "question": "What special built-in property key captures and renders any content nested directly between the opening and closing tags of a custom component?",
     "options": [
-      "The outcome or response variable that the model is trying to predict",
-      "The variable used to predict the outcome",
-      "A variable that remains constant throughout the entire dataset",
-      "A categorical variable used solely to group data"
+      "props.children",
+      "props.innerContent",
+      "props.nested",
+      "props.html"
     ]
   },
   {
-    "question": "Descriptive statistics differ from inferential statistics in that descriptive statistics:",
+    "question": "What specific object method allows a developer to dynamically duplicate property attributes across components using the clean {...props} syntax?",
     "options": [
-      "Summarize and describe the features of a specific dataset",
-      "Make predictions or generalizations about a population from a sample",
-      "Test hypotheses to find significant differences between groups",
-      "Use probabilities to infer relationships between variables"
+      "ES6 Spread Operator",
+      "Object Splice Operator",
+      "Object Mutation Method",
+      "Deep Clone Function"
     ]
   },
   {
-    "question": "Inferential statistics are primarily used to:",
+    "question": "When building complex interfaces, what approach describes decomposing a layout into standalone nested layers rather than writing giant monolithic blocks?",
     "options": [
-      "Draw conclusions and make predictions about a larger population based on a sample",
-      "Calculate the exact average of every single individual in a population",
-      "Create visual charts and graphs for raw data",
-      "Find data entry errors in the SPSS Data View"
+      "Composition / Component-Driven Architecture",
+      "Linear Inheritance Mapping",
+      "Hardcoded Script Chaining",
+      "Flat Namespace Allocation"
     ]
   },
   {
-    "question": "Which menu in SPSS would you click first to run a frequency distribution?",
+    "question": "When declaring direct inline styling attributes within a JSX node, what target data type must be passed into the element's style attribute?",
     "options": [
-      "Analyze",
-      "Transform",
-      "Data",
-      "Graphs"
+      "A double-nested JavaScript object containing style rules",
+      "A flat text path pointing to an external .css asset file",
+      "A plain string containing semicolons",
+      "An array of numeric layout measurements"
     ]
   },
   {
-    "question": "To create a bar chart in SPSS, which primary menu option can you use?",
+    "question": "How are multi-word CSS property keys like background-color or font-size translated within a React style object?",
     "options": [
-      "Graphs",
-      "Transform",
-      "Data",
-      "Edit"
+      "They are converted into camelCase keys (e.g., backgroundColor, fontSize)",
+      "They must be enclosed within double square brackets",
+      "They must retain the original hyphenation format inside raw quotation marks",
+      "They are converted to lowercase with no spaces or symbols"
     ]
   },
   {
-    "question": "In a dataset of students, 'Student ID' would best be classified as what type of variable role?",
+    "question": "What default unit measurement assumptions does React make if a raw numeric value like fontSize: 16 is declared without explicit units?",
     "options": [
-      "Identification number",
-      "Dependent variable",
-      "Missing value",
-      "Continuous variable"
+      "It defaults automatically to regular pixels (px)",
+      "It defaults to standard em values",
+      "It registers as a percentage boundary (%)",
+      "It defaults to points (pt)"
     ]
   },
   {
-    "question": "What does the 'Align' property dictate in the SPSS Variable View?",
+    "question": "How can you dynamically swap out element styling configurations at runtime based on conditional application state flags?",
     "options": [
-      "How the data values are visually justified (left, right, center) within the Data View cells",
-      "How the variable correlates with other variables",
-      "The mathematical scale of the data",
-      "Whether the variable is placed at the top or bottom of the dataset"
+      "Using ternary operators or expressions directly inside the style object attribute",
+      "By changing the file path inside the browser configuration manually",
+      "Re-compiling the entire project build pipeline via Webpack",
+      "Overwriting the native browser rendering window memory manually"
     ]
   },
   {
-    "question": "If an SPSS user wants to group ages (e.g., 22, 25, 29) into a new variable called 'Age Group' (e.g., 20-30), which transformation is most appropriate?",
+    "question": "What is the fundamental scope limitation of standard global CSS stylesheets imported into a specific React component file?",
     "options": [
-      "Recode into Different Variables",
-      "Compute Variable",
-      "Rank Cases",
-      "Sort Cases"
+      "The styles leak into the global scope, affecting all rendered HTML elements across the whole application",
+      "The styles are isolated strictly to that file and do not impact other components",
+      "They only apply to class components, failing entirely on functional configurations",
+      "They block all subsequent JavaScript execution across the application"
     ]
   },
   {
-    "question": "The 'Automatic Recode' feature in SPSS is often used to:",
+    "question": "What is State in React, and how does it fundamentally differ from standard Props?",
     "options": [
-      "Convert string variables into numeric categorical variables safely",
-      "Automatically calculate the mean and standard deviation of all columns",
-      "Delete rows that contain missing values",
-      "Transform a continuous variable into a normally distributed variable"
+      "State represents an internal, mutable data store managed within the component that triggers re-renders upon modification",
+      "State is external unchangeable configuration data received from a parent component",
+      "State is an environment tracking variable stored inside backend server files",
+      "State is a styling feature used to assign layout colors"
     ]
   },
   {
-    "question": "What is the role of 'Decimals' in the Variable View?",
+    "question": "Which built-in React utility function is used to declare and track local component state within a functional component configuration?",
     "options": [
-      "It determines how many decimal places are displayed for numeric data in the Data View",
-      "It restricts the user from typing whole numbers",
-      "It converts string data into numeric data automatically",
-      "It acts as a multiplier for all data in that column"
+      "useState",
+      "setComponentState()",
+      "createStateStore()",
+      "useEffect"
     ]
   },
   {
-    "question": "When interpreting output from a T-test in SPSS, what does a p-value (Sig.) of less than 0.05 typically indicate?",
+    "question": "What does a layout expression like {showDetails && <DetailsComponent />} perform within a JSX element block?",
     "options": [
-      "There is a statistically significant difference between the groups",
-      "There is no statistically significant difference between the groups",
-      "The data was entered incorrectly",
-      "The sample size is too small to draw a conclusion"
+      "It uses short-circuit evaluation to conditionally render <DetailsComponent /> only if showDetails is true",
+      "It triggers an infinite loop across data items",
+      "It styles the target element to match responsive layout grids",
+      "It imports the details module from an external CDN directory link"
     ]
   },
   {
-    "question": "Which of the following is a key similarity between descriptive and inferential statistics in SPSS?",
+    "question": "What design problem is created by Prop Drilling in large-scale React component structures?",
     "options": [
-      "Both are analytical methods used to draw meaningful insights from data",
-      "Both are exclusively used to predict future trends in population data",
-      "Both can only be applied to string/text variables",
-      "Both require a standard deviation of zero to be accurate"
+      "Data must be passed down through multiple intermediate components that don't actually need it, just to reach a deep child component",
+      "The build engine fails to bundle package configurations",
+      "The browser window experiences extreme visual flickering issues during updates",
+      "Component files are automatically compiled into binary files"
     ]
   },
   {
-    "question": "To conduct a Chi-Square test in SPSS, you would navigate through the 'Analyze' menu to:",
+    "question": "When handling numeric data types in JavaScript, what issue can arise when performing arithmetic operations with raw floats (e.g., 0.1 + 0.2)?",
     "options": [
-      "Descriptive Statistics > Crosstabs",
-      "Compare Means > Independent-Samples T-test",
-      "Correlate > Bivariate",
-      "General Linear Model > Univariate"
+      "Precision rounding errors due to standard binary floating-point representation",
+      "The value automatically changes into an array structure",
+      "The browser throws an immediate ZeroDivisionError exception",
+      "The numbers are permanently converted into uppercase text fields"
     ]
   },
   {
-    "question": "What is the prerequisite course for DTS 211 according to the provided course material?",
+    "question": "What is the fundamental difference between standard JavaScript assignment (=) and strict comparison (===)?",
     "options": [
-      "STA 101 - Descriptive statistics",
-      "CSC 101 - Introduction to Computing",
-      "MTH 101 - General Mathematics",
-      "DTS 101 - Introduction to Data Science"
+      "Assignment modifies variables, while strict comparison tests for equality of both value and data type without type coercion",
+      "There is no functional difference; they are syntactic aliases",
+      "Assignment checks matching database keys, while comparison handles style sheets",
+      "Assignment is an old-school syntax replaced by hooks"
     ]
   },
   {
-    "question": "Which of the following describes the difference between a Bar chart and a Line chart in SPSS?",
+    "question": "What structural utility block handles catching operational errors in JavaScript to prevent an application from crashing entirely?",
     "options": [
-      "Bar charts use rectangular bars to show frequency/magnitude, while Line charts use connected data points often showing trends over time",
-      "Bar charts are only for continuous data, while Line charts are only for categorical data",
-      "Bar charts require three variables, while Line charts only require one",
-      "There is no difference; they are two names for the same graph in SPSS"
+      "try { ... } catch (error) { ... }",
+      "with open(...) as file:",
+      "if ... elif ... else",
+      "class Factory extends Component"
     ]
   },
   {
-    "question": "In Regression analysis, what statistic is commonly evaluated to determine how much variance in the dependent variable is explained by the independent variable(s)?",
+    "question": "In a controlled form input tracking cycle, what property binding connects the HTML element value back into your local state container variable?",
     "options": [
-      "R-squared (R²)",
-      "Cronbach's Alpha",
-      "Chi-Square statistic",
-      "Levene's Test for Equality of Variances"
+      "value={myState}",
+      "className={myState}",
+      "key={myState}",
+      "id={myState}"
     ]
   },
   {
-    "question": "Which of the following data types allows letters, numbers, and symbols to be entered in an SPSS cell?",
+    "question": "What routing hook isolates tracking parameters from standard URLs to manage navigation configurations?",
     "options": [
-      "String",
-      "Numeric",
-      "Comma",
-      "Dot"
+      "useParams()",
+      "useLocation()",
+      "useContext()",
+      "useRef()"
     ]
   },
   {
-    "question": "When configuring a variable, what is the function of the 'Label' column?",
+    "question": "When launching a development project workflow server environment using Vite or NPM build utilities, what standard script path command is typically run in the terminal?",
     "options": [
-      "To provide a longer, more descriptive name for the variable than the short 'Name' allows",
-      "To specify which values are treated as missing data",
-      "To link the dataset to external databases",
-      "To define the mathematical formula used to compute the variable"
+      "npm run dev or npm start",
+      "python setup.py sdist",
+      "npm init -y",
+      "git commit -m"
     ]
   },
   {
-    "question": "Which of the following is a strict rule when naming a variable in SPSS?",
+    "question": "What is the fundamental syntax name given to the XML-like extension used to describe UI hierarchies inside standard React scripts?",
     "options": [
-      "The name cannot contain spaces",
-      "The name must start with a number",
-      "The name must contain at least one special character",
-      "The name cannot exceed four characters in length"
+      "JSX",
+      "TSX",
+      "XHTML",
+      "JSON"
     ]
   },
   {
-    "question": "What does the acronym SPSS originally stand for?",
+    "question": "Under structural JSX validation constraints, what must every multi-line layout fragment or sibling tree structure be wrapped inside?",
     "options": [
-      "Statistical Package for the Social Sciences",
-      "Statistical Processing and Sorting System",
-      "Standard Procedures for Statistical Sampling",
-      "Scientific Program for Social Studies"
+      "A single root element or an empty fragment <></>",
+      "A standalone return statement semicolon",
+      "An independent module file array",
+      "An explicitly bound event function wrapper"
     ]
   },
   {
-    "question": "In the SPSS Data View, what do the columns represent?",
+    "question": "How are standard HTML attribute labels like 'class' and 'for' syntactically transformed when declared inside valid JSX markup?",
     "options": [
-      "Variables",
-      "Cases",
-      "Missing values",
-      "Statistical outputs"
+      "They change to className and htmlFor due to reserved JavaScript keywords",
+      "They remain exactly the same as vanilla HTML",
+      "They must be declared using strict string index notation",
+      "They are prefixed with an uppercase character flag"
     ]
   },
   {
-    "question": "In the SPSS Variable View, what do the rows represent?",
+    "question": "What structural wrapper syntax enables developers to inject dynamic JavaScript expressions, arithmetic, or variables directly inside JSX code blocks?",
     "options": [
-      "Variables",
-      "Cases",
-      "Properties of the data",
-      "Participants"
+      "Single curly braces: {}",
+      "Double quotation symbols: \"\"",
+      "Parentheses groupings: ()",
+      "Angle comment brackets: <-->"
     ]
   },
   {
-    "question": "What property dictates the maximum number of characters that can be entered for a string variable?",
+    "question": "What are the two structural paradigms available to define individual modular layout blocks within React code systems?",
     "options": [
-      "Width",
-      "Columns",
-      "Decimals",
-      "Measure"
+      "Class Components and Functional Components",
+      "Procedural and Functional modules",
+      "Abstract and Concrete components",
+      "Direct and Indirect structural nodes"
     ]
   },
   {
-    "question": "What is the standard file extension for an SPSS data file?",
+    "question": "Which declaration type represents the modern standard approach for writing clean, lightweight React components utilizing modern Hooks?",
     "options": [
-      ".sav",
-      ".spv",
-      ".sps",
-      ".csv"
+      "Functional Components",
+      "Object Literal definitions",
+      "Extended System Classes",
+      "Inline CSS styles"
     ]
   },
   {
-    "question": "What is the standard file extension for an SPSS output file?",
+    "question": "Component function names in React must strictly adhere to which casing convention to avoid being misinterpreted as native HTML tags?",
     "options": [
-      ".spv",
-      ".sav",
-      ".sps",
-      ".docx"
+      "PascalCase (Capitalized first letter)",
+      "camelCase",
+      "snake_case",
+      "UPPERCASE"
     ]
   },
   {
-    "question": "Which SPSS window allows advanced users to write and execute programming commands instead of using the graphical menus?",
+    "question": "What are Props within the functional context of a React application pipeline?",
     "options": [
-      "Syntax Editor",
-      "Data Editor",
-      "Output Viewer",
-      "Chart Builder"
+      "Read-only configuration data passed down from a parent component to a child component",
+      "Internal mutable state structures that track click counts",
+      "Built-in database connection points",
+      "Styles sheets loaded directly from external hosting CDNs"
     ]
   },
   {
-    "question": "How does SPSS typically display a 'system-missing' value in a numeric column within the Data View?",
+    "question": "Which statement correctly describes the stability and mutating behaviors of Props within a receiving child component?",
     "options": [
-      "As a single period or dot (.)",
-      "As the word 'NULL'",
-      "As a zero (0)",
-      "As a blank space"
+      "Props are immutable and must never be altered directly by the receiving child component",
+      "Props can be directly overwritten and mutated by the child component at runtime",
+      "Props automatically change when a user types into an input field without event updates",
+      "Props must always contain an integer identifier field called id"
     ]
   },
   {
-    "question": "Which menu would you use to compute a new variable from existing ones?",
+    "question": "What command is used to create a new React project using Vite?",
     "options": [
-      "Transform",
-      "Analyze",
-      "Data",
-      "Edit"
+      "npm create vite@latest",
+      "npm install react",
+      "npm start react",
+      "npm init react"
     ]
   },
   {
-    "question": "Which statistical test evaluates whether the variance of two or more groups are equal before running an ANOVA or T-test?",
+    "question": "Which file is typically the entry point of a React application created with Vite?",
     "options": [
-      "Levene's Test",
-      "Tukey's HSD Test",
-      "Pearson's Correlation",
-      "Kruskal-Wallis Test"
+      "main.jsx",
+      "app.js",
+      "index.js",
+      "start.jsx"
     ]
   },
   {
-    "question": "What is the null hypothesis for a standard One-Way ANOVA test?",
+    "question": "What is the purpose of ReactDOM?",
     "options": [
-      "The means of all groups are equal",
-      "The means of all groups are completely different",
-      "The variances of all groups are unequal",
-      "There is a strong correlation between the groups"
+      "Connecting React components to the browser DOM",
+      "Managing CSS files",
+      "Creating databases",
+      "Handling server requests"
     ]
   },
   {
-    "question": "What type of T-test is used to determine if a sample mean significantly differs from a known or hypothesized population mean?",
+    "question": "Which Hook is used to reference DOM elements directly in React?",
     "options": [
-      "One-Sample T-test",
-      "Independent-Samples T-test",
-      "Paired-Samples T-test",
-      "Two-Way T-test"
+      "useRef",
+      "useState",
+      "useEffect",
+      "useMemo"
     ]
   },
   {
-    "question": "Which SPSS feature under the 'Data' menu allows you to temporarily filter out participants who do not meet a certain condition?",
+    "question": "Which of the following is NOT a valid React Hook?",
     "options": [
-      "Select Cases",
-      "Split File",
-      "Sort Cases",
-      "Merge Files"
+      "useClass",
+      "useState",
+      "useEffect",
+      "useContext"
     ]
   },
   {
-    "question": "Which feature allows you to run the exact same analysis separately for different groups (e.g., generating separate descriptive statistics for males and females)?",
+    "question": "What is the default extension for React component files containing JSX?",
     "options": [
-      "Split File",
-      "Select Cases",
-      "Rank Cases",
-      "Compute Variable"
+      ".jsx",
+      ".html",
+      ".css",
+      ".json"
     ]
   },
   {
-    "question": "If you are conducting a correlation analysis, what does a correlation coefficient (r) of +1 indicate?",
+    "question": "Which symbol is used to embed JavaScript expressions inside JSX?",
     "options": [
-      "A perfect positive linear relationship",
-      "No linear relationship",
-      "A perfect negative linear relationship",
-      "An error in the calculation"
+      "{}",
+      "()",
+      "[]",
+      "<>"
     ]
   },
   {
-    "question": "What is the acceptable range for a Pearson correlation coefficient?",
+    "question": "What is the output type returned by a React component?",
     "options": [
-      "Between -1.0 and +1.0",
-      "Between 0 and 100",
-      "Between 0 and 1.0",
-      "Between -100 and +100"
+      "JSX Element",
+      "CSS Object",
+      "HTML String",
+      "Database Record"
     ]
   },
   {
-    "question": "Which is the non-parametric equivalent of the Independent-Samples T-test?",
+    "question": "Which Hook is commonly used to fetch data from an API when a component loads?",
     "options": [
-      "Mann-Whitney U Test",
-      "Wilcoxon Signed-Rank Test",
-      "Kruskal-Wallis Test",
-      "Spearman's Correlation"
+      "useEffect",
+      "useMemo",
+      "useContext",
+      "useRef"
     ]
   },
   {
-    "question": "Which is the non-parametric equivalent of the Paired-Samples T-test?",
+    "question": "What method converts a JavaScript object into a JSON string?",
     "options": [
-      "Wilcoxon Signed-Rank Test",
-      "Mann-Whitney U Test",
-      "Kruskal-Wallis Test",
-      "Chi-Square Test"
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.convert()",
+      "JSON.object()"
     ]
   },
   {
-    "question": "What is mathematically defined as the square root of the variance?",
+    "question": "Which method converts a JSON string into a JavaScript object?",
     "options": [
-      "Standard Deviation",
-      "Range",
-      "Mean",
-      "Median"
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.decode()",
+      "JSON.convert()"
     ]
   },
   {
-    "question": "In a normal distribution, what percentage of data falls within one standard deviation of the mean?",
+    "question": "What is the purpose of Fragment (<></>) in React?",
     "options": [
-      "Approximately 68%",
-      "Approximately 95%",
-      "Approximately 99%",
-      "100%"
+      "To wrap multiple elements without adding extra DOM nodes",
+      "To create a database table",
+      "To style components",
+      "To handle routing"
     ]
   },
   {
-    "question": "Which chart type is specifically used to plot the exact median, quartiles, and outliers of a continuous dataset?",
+    "question": "Which React Hook helps optimize performance by preventing unnecessary re-renders of functions?",
     "options": [
-      "Box Plot",
-      "Scatter Diagram",
-      "Histogram",
-      "Area Chart"
+      "useCallback",
+      "useState",
+      "useContext",
+      "useEffect"
     ]
   },
   {
-    "question": "What is the purpose of a Q-Q (Quantile-Quantile) plot in SPSS?",
+    "question": "What is the purpose of localStorage in a React application?",
     "options": [
-      "To visually check if a dataset follows a normal distribution",
-      "To show the correlation between two categorical variables",
-      "To identify the exact mean and median of the dataset",
-      "To display the proportion of missing values"
+      "To store data permanently in the browser",
+      "To create components",
+      "To style pages",
+      "To manage routes"
     ]
   },
   {
-    "question": "Which data property in SPSS sets the display width of the variable column purely for the Data View interface, without affecting the actual data length?",
+    "question": "Which lifecycle behavior does useEffect mimic when provided with an empty dependency array?",
     "options": [
-      "Columns",
-      "Width",
-      "Align",
-      "Decimals"
+      "componentDidMount",
+      "componentWillUnmount",
+      "componentDidUpdate",
+      "render"
     ]
   },
   {
-    "question": "If you want to compare the frequency counts of two categorical variables simultaneously (e.g., Gender by Education Level), which analysis should you use?",
+    "question": "Which Hook allows sharing state logic between multiple components without prop drilling?",
     "options": [
-      "Crosstabs",
-      "Descriptives",
-      "Explore",
-      "One-Way ANOVA"
+      "useContext",
+      "useRef",
+      "useState",
+      "useLayoutEffect"
     ]
   },
   {
-    "question": "Which value measures the exact middle point of a dataset when the values are arranged in ascending order?",
+    "question": "What is the purpose of React.StrictMode?",
     "options": [
-      "Median",
-      "Mean",
-      "Mode",
-      "Range"
+      "To highlight potential problems during development",
+      "To improve CSS rendering",
+      "To speed up production builds",
+      "To create routes automatically"
     ]
   },
   {
-    "question": "What is the primary characteristic of an 'Ordinal' variable?",
+    "question": "Which command installs all dependencies listed in package.json?",
     "options": [
-      "Its categories have a logical or meaningful rank order",
-      "Its categories have no inherent order or ranking",
-      "It represents measurable numerical distances",
-      "It can only contain text or string data"
-    ]
-  },
-  {
-    "question": "Which of the following is an example of a 'Nominal' variable?",
-    "options": [
-      "Blood Type (A, B, AB, O)",
-      "Income Bracket (Low, Medium, High)",
-      "Temperature in Celsius",
-      "Age in years"
-    ]
-  },
-  {
-    "question": "To perform a simple linear regression in SPSS, which path would you follow from the 'Analyze' menu?",
-    "options": [
-      "Regression > Linear",
-      "Correlate > Bivariate",
-      "Compare Means > Linear",
-      "General Linear Model > Univariate"
-    ]
-  },
-  {
-    "question": "In a regression model, the independent variable is also commonly referred to as the:",
-    "options": [
-      "Predictor variable",
-      "Outcome variable",
-      "Response variable",
-      "Confounding variable"
-    ]
-  },
-  {
-    "question": "Which of these is a measure of dispersion that represents the average squared distance of data points from the mean?",
-    "options": [
-      "Variance",
-      "Standard Deviation",
-      "Range",
-      "Median"
-    ]
-  },
-  {
-    "question": "If a researcher wants to merge two separate SPSS datasets that contain the same variables but different participants, which feature should they use?",
-    "options": [
-      "Add Cases",
-      "Add Variables",
-      "Split File",
-      "Compute Variable"
-    ]
-  },
-  {
-    "question": "If a researcher wants to merge two separate datasets that contain the exact same participants but different variables, which feature should they use?",
-    "options": [
-      "Add Variables",
-      "Add Cases",
-      "Select Cases",
-      "Rank Cases"
-    ]
-  },
-  {
-    "question": "What does an 'Area Chart' typically emphasize in statistical visualization?",
-    "options": [
-      "The magnitude of change and cumulative totals over a period of time",
-      "The individual distribution of unrelated categorical groups",
-      "The correlation outliers in a linear regression model",
-      "The exact frequency of missing values in the dataset"
-    ]
-  },
-  {
-    "question": "What is the name of the post-hoc test commonly used to control for Type I errors when conducting multiple pairwise comparisons after an ANOVA?",
-    "options": [
-      "Tukey's HSD (Honestly Significant Difference)",
-      "Levene's Test",
-      "Pearson's r",
-      "Shapiro-Wilk Test"
-    ]
-  },
-  {
-    "question": "Which test statistic is analyzed to determine the significance of an ANOVA test?",
-    "options": [
-      "F-statistic",
-      "T-statistic",
-      "Chi-square value",
-      "R-squared"
-    ]
-  },
-  {
-    "question": "Which test statistic is primarily analyzed to determine the significance of a Chi-Square test?",
-    "options": [
-      "Chi-Square value",
-      "F-statistic",
-      "T-statistic",
-      "Z-score"
-    ]
-  },
-  {
-    "question": "In the 'Explore' command in SPSS, which table provides measures such as the mean, 5% trimmed mean, and interquartile range all at once?",
-    "options": [
-      "Descriptives table",
-      "Frequencies table",
-      "ANOVA table",
-      "Correlations table"
-    ]
-  },
-  {
-    "question": "What is the primary function of the 'Missing' column in Variable View?",
-    "options": [
-      "To declare specific numerical codes (e.g., 99) as missing data so they are excluded from calculations",
-      "To find and delete all blank cells in the dataset",
-      "To automatically replace missing values with the mean of the column",
-      "To highlight missing data in red within the Data View"
-    ]
-  },
-  {
-    "question": "Which of these variable names is valid in SPSS?",
-    "options": [
-      "Age_in_Years",
-      "Age in Years",
-      "1st_Age",
-      "Age-in-Years"
-    ]
-  },
-  {
-    "question": "If your data violates the assumption of normal distribution, what category of statistical tests should you generally rely on?",
-    "options": [
-      "Non-parametric tests",
-      "Parametric tests",
-      "General Linear Models",
-      "Post-hoc tests"
-    ]
-  },
-  {
-    "question": "What term describes the smallest and largest values in a dataset?",
-    "options": [
-      "Minimum and Maximum",
-      "Mean and Median",
-      "Variance and Standard Deviation",
-      "Quartiles and Percentiles"
-    ]
-  },
-  {
-    "question": "Which analysis is best for summarizing a single continuous variable to find its central tendency and dispersion?",
-    "options": [
-      "Descriptives",
-      "Crosstabs",
-      "Chi-Square",
-      "Pearson Correlation"
-    ]
-  },
-  {
-    "question": "What does a line chart typically display best?",
-    "options": [
-      "Trends of a continuous variable over continuous time intervals",
-      "The correlation between two unrelated demographic variables",
-      "The percentage breakdown of a single categorical variable",
-      "The central tendency of ordinal data"
-    ]
-  },
-  {
-    "question": "According to the course material, what percentage of the total marks does the Test component account for?",
-    "options": [
-      "20%",
-      "10%",
-      "60%",
-      "100%"
-    ]
-  },
-  {
-    "question": "According to the course material, what percentage of the total marks does the Examination component account for?",
-    "options": [
-      "60%",
-      "20%",
-      "10%",
-      "100%"
-    ]
-  },
-  {
-    "question": "According to the course material, what percentage of the total marks does the Project component account for?",
-    "options": [
-      "10%",
-      "20%",
-      "60%",
-      "100%"
-    ]
-  },
-  {
-    "question": "In terms of data entry, what happens if you try to type text into a variable column defined as 'Numeric' in Variable View?",
-    "options": [
-      "SPSS will not accept the input or will delete it when you press Enter",
-      "SPSS will automatically change the variable type to String",
-      "SPSS will convert the text into binary code",
-      "SPSS will crash and close the file"
-    ]
-  },
-  {
-    "question": "When defining the 'Type' of a variable, which option should be selected for variables that represent currency?",
-    "options": [
-      "Dollar or Custom Currency",
-      "String",
-      "Date",
-      "Restricted Numeric"
-    ]
-  },
-  {
-    "question": "The 'Values' column in Variable View is most critically used for which type of data?",
-    "options": [
-      "Nominal and Ordinal categorical data",
-      "Scale continuous data",
-      "Date and Time data",
-      "Unrestricted String data"
+      "npm install",
+      "npm run install",
+      "npm get",
+      "npm update"
     ]
   }
 ]
